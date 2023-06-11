@@ -1,0 +1,1 @@
+[2023-06-11 15:04:50,218]  ERROR -                 bundle.startup - Error while starting JetBrains YouTrack 2023.1: Error saving properties file /opt/youtrack/data/internal/services/adminService/awcToken.properties: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied) 

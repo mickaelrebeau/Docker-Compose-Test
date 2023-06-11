@@ -1,0 +1,529 @@
+09/06/23 12:53:58,192 [guest@127.0.0.1] 200 POST /api/rest/services?fields=id,trusted
+ 09/06/23 12:53:58,368 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:53:58,390 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 GET /api/rest/usergroups/root?fields=id
+ 09/06/23 12:53:58,411 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 GET /api/rest/services/0-0-0-0-0?fields=headerVisibleGroups/id,id
+ 09/06/23 12:53:58,426 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 POST /api/rest/services/0-0-0-0-0
+ 09/06/23 12:53:58,476 [guest@127.0.0.1] 200 POST /api/rest/services?fields=id,trusted
+ 09/06/23 12:53:58,495 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:53:59,372 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=version,licenseSettings/licenseName,licenseSettings/licenseKey,applicationName,name,homeUrl,redirectUris,id,headerVisibleGroups/id,vendor
+ 09/06/23 12:53:59,391 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:53:59,424 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 GET /api/rest/users/guest
+ 09/06/23 12:53:59,484 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 POST /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef
+ 09/06/23 12:53:59,506 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:53:59,544 [Temporary installer service (2023-06-09 12:53:57 UTC)@127.0.0.1] 200 DELETE /api/rest/services/d89f633b-a06d-4d7b-9fcc-16de769a318b
+ 09/06/23 12:54:26,228 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:26,378 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:26,501 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&orderBy=id:desc&fields=id,targetType,targetId,type
+ 09/06/23 12:54:26,539 [YouTrack@127.0.0.1] 200 GET /api/rest/services?$skip=0&$top=100&fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:26,589 [YouTrack@127.0.0.1] 200 GET /api/rest/settings?$skip=0&$top=100&fields=id,aliases
+ 09/06/23 12:54:26,646 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {15}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:26,655 [YouTrack@127.0.0.1] 200 GET /api/rest/userdetails?$skip=0&$top=100&fields=id
+ 09/06/23 12:54:26,668 [YouTrack@127.0.0.1] 200 GET /api/rest/organizationroles?$skip=0&$top=100&fields=id,role/id,organization/id
+ 09/06/23 12:54:26,677 [YouTrack@127.0.0.1] 200 GET /api/rest/authmodules?$skip=0&$top=100&fields=id,aliases
+ 09/06/23 12:54:26,701 [YouTrack@127.0.0.1] 200 GET /api/rest/users?$skip=0&$top=100&fields=id,aliases,groups/id,teams/id,transitiveTeams/id,projectRoles/id,organizationRoles/id,transitiveOrganizations/id,licenses/id,userType/id,profile(email,jabber,locale,avatar,attributes(id,value,prototype(id,name,type,showOnUserList)))
+ 09/06/23 12:54:26,714 [YouTrack@127.0.0.1] 200 GET /api/rest/projectroles?$skip=0&$top=100&fields=id,role/id,project/id
+ 09/06/23 12:54:26,727 [YouTrack@127.0.0.1] 200 GET /api/rest/metrics?$skip=0&$top=100&fields=id,serverStartTime
+ 09/06/23 12:54:26,742 [YouTrack@127.0.0.1] 200 GET /api/rest/widgets?$skip=0&$top=100&fields=id,aliases
+ 09/06/23 12:54:26,758 [YouTrack@127.0.0.1] 200 GET /api/rest/projectteams?$skip=0&$top=100&fields=id,aliases,project/id,projectRoles/id,organizationRoles/id
+ 09/06/23 12:54:26,769 [YouTrack@127.0.0.1] 200 GET /api/rest/keystores?$skip=0&$top=100&fields=id,aliases,name
+ 09/06/23 12:54:26,787 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions?$skip=0&$top=100&fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:26,802 [YouTrack@127.0.0.1] 200 GET /api/rest/dashboards?$skip=0&$top=100&fields=id,aliases
+ 09/06/23 12:54:26,817 [YouTrack@127.0.0.1] 200 GET /api/rest/resources?$skip=0&$top=100&fields=id,key,aliases
+ 09/06/23 12:54:26,829 [YouTrack@127.0.0.1] 200 GET /api/rest/certificates?$skip=0&$top=100&disabled=true&fields=id,aliases,name
+ 09/06/23 12:54:26,846 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?archived=true&$skip=0&$top=100&fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:26,856 [YouTrack@127.0.0.1] 200 GET /api/rest/organizations?$skip=0&$top=100&fields=id,aliases,name
+ 09/06/23 12:54:26,864 [YouTrack@127.0.0.1] 200 GET /api/rest/profileattributeprototypes?$skip=0&$top=100&fields=id,aliases,name,type,showOnUserList
+ 09/06/23 12:54:26,877 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?$skip=0&$top=100&fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:26,888 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups?$skip=0&$top=100&fields=id,aliases,parent/id,teams/id,projectRoles/id,organizationRoles/id
+ 09/06/23 12:54:26,912 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/0?fields=archived
+ 09/06/23 12:54:26,927 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/global?fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:26,944 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5456b610-8abd-4396-8eaa-672d857dfff1?fields=global
+ 09/06/23 12:54:26,951 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/36eb149f-9825-41ce-b126-22138e85c367?fields=global
+ 09/06/23 12:54:26,970 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {15}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:26,994 [YouTrack@127.0.0.1] 200 GET /api/rest/services/0-0-0-0-0?fields=redirectUris
+ 09/06/23 12:54:27,029 [YouTrack@127.0.0.1] 200 POST /api/rest/services/0-0-0-0-0
+ 09/06/23 12:54:27,042 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/root?fields=id
+ 09/06/23 12:54:27,065 [YouTrack@127.0.0.1] 200 POST /api/rest/services/0-0-0-0-0/viewers
+ 09/06/23 12:54:27,077 [YouTrack@127.0.0.1] 200 GET /api/rest/services?query=key: 700c3da4-cba2-4fc6-a14d-cd730220ff59
+ 09/06/23 12:54:27,113 [YouTrack@127.0.0.1] 200 POST /api/rest/services
+ 09/06/23 12:54:27,139 [YouTrack Konnector@127.0.0.1] 200 POST /api/rest/services/88ae3652-3d45-46d3-80f3-ce149538ca66
+ 09/06/23 12:54:27,147 [YouTrack@127.0.0.1] 200 GET /api/rest/services?query=key: 949a8387-aeba-4300-a2d3-92d872409efb
+ 09/06/23 12:54:27,171 [YouTrack@127.0.0.1] 200 POST /api/rest/services
+ 09/06/23 12:54:27,180 [YouTrack@127.0.0.1] 200 GET /api/rest/services?query=key: 949a8387-aeba-4300-a2d3-92d872409efb
+ 09/06/23 12:54:27,188 [YouTrack@127.0.0.1] 200 GET /api/rest/services?query=key: 949a8387-aeba-4300-a2d3-92d872409efb
+ 09/06/23 12:54:27,208 [YouTrack Mobile@127.0.0.1] 200 POST /api/rest/services/d60cd8a8-4efc-4bac-a4a1-30e46b2bcd07
+ 09/06/23 12:54:27,214 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/root?fields=id
+ 09/06/23 12:54:27,223 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/viewers
+ 09/06/23 12:54:27,235 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:27,260 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:27,269 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=baseUrls
+ 09/06/23 12:54:27,281 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:27,288 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {15}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:27,300 [YouTrack@127.0.0.1] 200 GET /api/rest/services/0-0-0-0-0?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:27,308 [YouTrack@127.0.0.1] 200 GET /api/rest/services/88ae3652-3d45-46d3-80f3-ce149538ca66?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:27,314 [YouTrack@127.0.0.1] 200 GET /api/rest/services/d60cd8a8-4efc-4bac-a4a1-30e46b2bcd07?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:27,320 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:27,333 [YouTrack@127.0.0.1] 200 GET /api/rest/events/16?fields=changes
+ 09/06/23 12:54:27,347 [YouTrack@127.0.0.1] 200 GET /api/rest/events/21?fields=changes
+ 09/06/23 12:54:27,358 [YouTrack@127.0.0.1] 200 GET /api/rest/events/22?fields=changes
+ 09/06/23 12:54:27,380 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions?query=service: 0-0-0-0-0
+ 09/06/23 12:54:27,401 [YouTrack@127.0.0.1] 200 GET /api/rest/settings/4e6be497-4f7b-49cc-b976-420272384a5e?fields=databaseReadonly
+ 09/06/23 12:54:27,413 [YouTrack@127.0.0.1] 200 GET /api/rest/authmodules?query=type: {Build-in Authorization}
+ 09/06/23 12:54:27,428 [YouTrack@127.0.0.1] 200 GET /api/rest/settings?query=type: public
+ 09/06/23 12:54:27,445 [YouTrack@127.0.0.1] 200 POST /api/rest/settings/ded99065-aa6b-4239-9c6a-59aca9a5646d
+ 09/06/23 12:54:27,454 [YouTrack@127.0.0.1] 200 POST /api/rest/settings/ded99065-aa6b-4239-9c6a-59aca9a5646d
+ 09/06/23 12:54:27,485 [YouTrack@127.0.0.1] 200 GET /api/rest/settings
+ 09/06/23 12:54:27,498 [YouTrack@127.0.0.1] 200 POST /api/rest/settings/42ca1736-2025-4195-8b05-5eb17e654d9b
+ 09/06/23 12:54:27,509 [YouTrack@127.0.0.1] 200 POST /api/rest/settings/8394b400-6c29-407d-9d3f-41ab410b9ecb
+ 09/06/23 12:54:27,523 [YouTrack@127.0.0.1] 200 GET /api/rest/resources?$top=2147483647&query=service: 62486447-3c0d-4800-b702-b32af8a58705&fields=id
+ 09/06/23 12:54:27,541 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions?query=service: 0-0-0-0-0 or service: 62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:27,569 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,582 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,594 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,615 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,628 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,641 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,654 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,667 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,679 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,692 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,704 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,718 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,731 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,748 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,761 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,774 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,787 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,799 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,811 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,823 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,835 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,851 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,863 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,876 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,888 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,901 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,913 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,929 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,942 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,955 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,969 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,982 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:27,996 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,009 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,022 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,036 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,049 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,063 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,076 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,089 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,101 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/permissions?fields=id
+ 09/06/23 12:54:28,115 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,133 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,148 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,166 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,187 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,219 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/defaultroles
+ 09/06/23 12:54:28,245 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?query=name: {System Admin} or name: {System Admin}
+ 09/06/23 12:54:28,262 [YouTrack@127.0.0.1] 200 POST /api/rest/roles/e18cfce3-0c61-471b-9fc5-a314d286bbfb
+ 09/06/23 12:54:28,269 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?query=name: {Reporter} or name: {Reporter}
+ 09/06/23 12:54:28,282 [YouTrack@127.0.0.1] 200 POST /api/rest/roles
+ 09/06/23 12:54:28,294 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?query=name: {Contributor} or name: {Contributor}
+ 09/06/23 12:54:28,307 [YouTrack@127.0.0.1] 200 POST /api/rest/roles/b7f594ed-50a6-4402-976f-f348e6816cbd
+ 09/06/23 12:54:28,314 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?query=name: {Issue Reader} or name: {Issue Reader}
+ 09/06/23 12:54:28,325 [YouTrack@127.0.0.1] 200 POST /api/rest/roles
+ 09/06/23 12:54:28,333 [YouTrack@127.0.0.1] 200 GET /api/rest/roles?query=name: {Project Admin} or name: {Project Admin}
+ 09/06/23 12:54:28,347 [YouTrack@127.0.0.1] 200 POST /api/rest/roles/7fbe51d3-f731-4bc5-9d3d-bd1fe90c2dde
+ 09/06/23 12:54:28,358 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/root?fields=id
+ 09/06/23 12:54:28,379 [YouTrack@127.0.0.1] 200 POST /api/rest/usergroups/212f390b-6f84-491d-8114-3a90de39d464
+ 09/06/23 12:54:28,390 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {22}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:28,403 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=100&$top=100&query=afterId: {22}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:28,410 [YouTrack@127.0.0.1] 200 GET /api/rest/settings/ded99065-aa6b-4239-9c6a-59aca9a5646d?fields=id,aliases
+ 09/06/23 12:54:28,416 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/06b72719-36d3-4092-9da6-638c0a7abc86?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,425 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:28,435 [YouTrack@127.0.0.1] 200 GET /api/rest/roles/e18cfce3-0c61-471b-9fc5-a314d286bbfb?fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:28,442 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ed1bc0ef-bd24-42c7-a32a-0262cc3b8924?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,449 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/1e7bbd07-f408-40fb-aa42-559b5204da8b?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,454 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/0ab47f74-29cb-461e-88a4-a7929079dc70?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,460 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/1a26d08f-552c-4f3f-8580-5df5502e339c?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,465 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/4ed07a29-5cd8-4f08-9e30-766ae5454b7c?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,470 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/292c4d8f-7c06-43a1-b294-7bdd77d3cf56?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,477 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/df43d275-ac62-4b94-b738-b53dcccb6f3d?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,482 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/82bf0fdb-f980-4840-bb00-897fc0a80638?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,488 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/b7818949-ea4b-4361-9bc5-b069b32ef6d3?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,494 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/d9a3b5fb-e48b-417f-bc51-cad833ed75cb?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,498 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/cb60da61-b42c-4327-8eb7-9e227efe74f4?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,504 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/9b4df35d-1d47-422d-94f4-f04ee4269e69?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,510 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/22e6397f-45e6-4759-93f1-b8de9942d230?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,515 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/871d5f85-6b09-4492-a517-df736a93ecfd?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,520 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/24f01613-9437-4167-a7f1-a32e80c3fe42?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,526 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5a3a4d25-0359-4dcf-a2c9-975233196e75?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,531 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5393d906-45d1-41b6-86ae-a90dc642bf57?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,537 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/86824df5-ed1a-4235-b639-98045ecd4cf3?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,543 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/030e76d8-8e8b-42dc-a660-1502555c4839?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,549 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/d7b20a99-37dd-406d-b010-4e9ca9fd7832?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,555 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/272d8168-b8a2-4c11-81c7-c1d4fbb3c84e?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,560 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ea14ea70-6464-4bc0-bf03-b331e1fc7879?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,567 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/4c848f99-4651-4951-9a74-fd557c4a419d?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,572 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/345bc677-e07a-43bf-aee0-f10ed6da4e87?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,578 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/94faf4d9-9657-4431-8981-55e63fb97db9?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,583 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/29b1d9c2-e306-46f9-ac3d-d03d45bec096?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,589 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ea1d9a92-6b22-4152-8b83-35982dcc0adb?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,595 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/98850b34-c94d-4ba1-8312-11e2de9c7768?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,600 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/084aa44a-c962-419a-9e2a-2dbef315b8e8?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,606 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5854cbc6-4e50-4ccf-bb52-04e2e93a5d24?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,612 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5bcad25b-d635-46d0-8d23-f920e83528c3?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,617 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/af7ea7df-32e6-4873-ac6e-5e87ecb4e5a8?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,622 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/a30f0d20-6747-4af7-b1fa-d7071da53365?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,628 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/08ab86ac-bf02-4411-9b68-29220f507d00?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,633 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/7617b6dd-bc0e-40a4-b4e8-ed3af7daee44?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,640 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/115138df-0efe-4a78-8939-7e43287fb64b?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,646 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/6f214f65-8de6-4954-8c38-12d47ea18c3c?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,651 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/6287ec0a-9330-4e6a-8d4b-6f81814e6f24?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,656 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c2566c78-5941-4266-9ad9-3ac0f21dc837?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,662 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/59c85e56-a51e-4566-8312-32501d837a48?fields=id,key,aliases,service/id,impliedPermissions/id
+ 09/06/23 12:54:28,667 [YouTrack@127.0.0.1] 200 GET /api/rest/roles/3662e3f5-b8d2-49f1-8c10-25f413aac0a8?fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:28,673 [YouTrack@127.0.0.1] 200 GET /api/rest/roles/b7f594ed-50a6-4402-976f-f348e6816cbd?fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:28,679 [YouTrack@127.0.0.1] 200 GET /api/rest/roles/d3243e31-8d06-423f-a0ac-b8da5bd3fdde?fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:28,685 [YouTrack@127.0.0.1] 200 GET /api/rest/roles/7fbe51d3-f731-4bc5-9d3d-bd1fe90c2dde?fields=id,key,aliases,permissions/id
+ 09/06/23 12:54:28,693 [YouTrack@127.0.0.1] 200 GET /api/rest/events/23?fields=changes
+ 09/06/23 12:54:28,699 [YouTrack@127.0.0.1] 200 GET /api/rest/events/25?fields=changes
+ 09/06/23 12:54:28,705 [YouTrack@127.0.0.1] 200 GET /api/rest/events/28?fields=changes
+ 09/06/23 12:54:28,711 [YouTrack@127.0.0.1] 200 GET /api/rest/events/31?fields=changes
+ 09/06/23 12:54:28,718 [YouTrack@127.0.0.1] 200 GET /api/rest/events/34?fields=changes
+ 09/06/23 12:54:28,726 [YouTrack@127.0.0.1] 200 GET /api/rest/events/37?fields=changes
+ 09/06/23 12:54:28,733 [YouTrack@127.0.0.1] 200 GET /api/rest/events/40?fields=changes
+ 09/06/23 12:54:28,740 [YouTrack@127.0.0.1] 200 GET /api/rest/events/43?fields=changes
+ 09/06/23 12:54:28,746 [YouTrack@127.0.0.1] 200 GET /api/rest/events/46?fields=changes
+ 09/06/23 12:54:28,752 [YouTrack@127.0.0.1] 200 GET /api/rest/events/49?fields=changes
+ 09/06/23 12:54:28,759 [YouTrack@127.0.0.1] 200 GET /api/rest/events/52?fields=changes
+ 09/06/23 12:54:28,765 [YouTrack@127.0.0.1] 200 GET /api/rest/events/55?fields=changes
+ 09/06/23 12:54:28,772 [YouTrack@127.0.0.1] 200 GET /api/rest/events/58?fields=changes
+ 09/06/23 12:54:28,780 [YouTrack@127.0.0.1] 200 GET /api/rest/events/61?fields=changes
+ 09/06/23 12:54:28,786 [YouTrack@127.0.0.1] 200 GET /api/rest/events/64?fields=changes
+ 09/06/23 12:54:28,793 [YouTrack@127.0.0.1] 200 GET /api/rest/events/67?fields=changes
+ 09/06/23 12:54:28,800 [YouTrack@127.0.0.1] 200 GET /api/rest/events/70?fields=changes
+ 09/06/23 12:54:28,806 [YouTrack@127.0.0.1] 200 GET /api/rest/events/73?fields=changes
+ 09/06/23 12:54:28,812 [YouTrack@127.0.0.1] 200 GET /api/rest/events/76?fields=changes
+ 09/06/23 12:54:28,818 [YouTrack@127.0.0.1] 200 GET /api/rest/events/79?fields=changes
+ 09/06/23 12:54:28,824 [YouTrack@127.0.0.1] 200 GET /api/rest/events/82?fields=changes
+ 09/06/23 12:54:28,830 [YouTrack@127.0.0.1] 200 GET /api/rest/events/85?fields=changes
+ 09/06/23 12:54:28,836 [YouTrack@127.0.0.1] 200 GET /api/rest/events/88?fields=changes
+ 09/06/23 12:54:28,842 [YouTrack@127.0.0.1] 200 GET /api/rest/events/91?fields=changes
+ 09/06/23 12:54:28,849 [YouTrack@127.0.0.1] 200 GET /api/rest/events/94?fields=changes
+ 09/06/23 12:54:28,855 [YouTrack@127.0.0.1] 200 GET /api/rest/events/97?fields=changes
+ 09/06/23 12:54:28,861 [YouTrack@127.0.0.1] 200 GET /api/rest/events/100?fields=changes
+ 09/06/23 12:54:28,867 [YouTrack@127.0.0.1] 200 GET /api/rest/events/103?fields=changes
+ 09/06/23 12:54:28,873 [YouTrack@127.0.0.1] 200 GET /api/rest/events/106?fields=changes
+ 09/06/23 12:54:28,880 [YouTrack@127.0.0.1] 200 GET /api/rest/events/109?fields=changes
+ 09/06/23 12:54:28,886 [YouTrack@127.0.0.1] 200 GET /api/rest/events/112?fields=changes
+ 09/06/23 12:54:28,892 [YouTrack@127.0.0.1] 200 GET /api/rest/events/115?fields=changes
+ 09/06/23 12:54:28,898 [YouTrack@127.0.0.1] 200 GET /api/rest/events/118?fields=changes
+ 09/06/23 12:54:28,904 [YouTrack@127.0.0.1] 200 GET /api/rest/events/121?fields=changes
+ 09/06/23 12:54:28,910 [YouTrack@127.0.0.1] 200 GET /api/rest/events/124?fields=changes
+ 09/06/23 12:54:28,916 [YouTrack@127.0.0.1] 200 GET /api/rest/events/127?fields=changes
+ 09/06/23 12:54:28,922 [YouTrack@127.0.0.1] 200 GET /api/rest/events/130?fields=changes
+ 09/06/23 12:54:28,929 [YouTrack@127.0.0.1] 200 GET /api/rest/events/133?fields=changes
+ 09/06/23 12:54:28,934 [YouTrack@127.0.0.1] 200 GET /api/rest/events/136?fields=changes
+ 09/06/23 12:54:28,941 [YouTrack@127.0.0.1] 200 GET /api/rest/events/139?fields=changes
+ 09/06/23 12:54:28,948 [YouTrack@127.0.0.1] 200 GET /api/rest/events/142?fields=changes
+ 09/06/23 12:54:28,953 [YouTrack@127.0.0.1] 200 GET /api/rest/events/145?fields=changes
+ 09/06/23 12:54:28,960 [YouTrack@127.0.0.1] 200 GET /api/rest/events/147?fields=changes
+ 09/06/23 12:54:28,970 [YouTrack@127.0.0.1] 200 GET /api/rest/events/148?fields=changes
+ 09/06/23 12:54:28,977 [YouTrack@127.0.0.1] 200 GET /api/rest/events/149?fields=changes
+ 09/06/23 12:54:28,984 [YouTrack@127.0.0.1] 200 GET /api/rest/events/150?fields=changes
+ 09/06/23 12:54:28,991 [YouTrack@127.0.0.1] 200 GET /api/rest/events/151?fields=changes
+ 09/06/23 12:54:28,997 [YouTrack@127.0.0.1] 200 GET /api/rest/events/26?fields=changes
+ 09/06/23 12:54:29,003 [YouTrack@127.0.0.1] 200 GET /api/rest/events/29?fields=changes
+ 09/06/23 12:54:29,009 [YouTrack@127.0.0.1] 200 GET /api/rest/events/32?fields=changes
+ 09/06/23 12:54:29,015 [YouTrack@127.0.0.1] 200 GET /api/rest/events/35?fields=changes
+ 09/06/23 12:54:29,021 [YouTrack@127.0.0.1] 200 GET /api/rest/events/38?fields=changes
+ 09/06/23 12:54:29,028 [YouTrack@127.0.0.1] 200 GET /api/rest/events/41?fields=changes
+ 09/06/23 12:54:29,034 [YouTrack@127.0.0.1] 200 GET /api/rest/events/44?fields=changes
+ 09/06/23 12:54:29,040 [YouTrack@127.0.0.1] 200 GET /api/rest/events/47?fields=changes
+ 09/06/23 12:54:29,045 [YouTrack@127.0.0.1] 200 GET /api/rest/events/50?fields=changes
+ 09/06/23 12:54:29,051 [YouTrack@127.0.0.1] 200 GET /api/rest/events/53?fields=changes
+ 09/06/23 12:54:29,057 [YouTrack@127.0.0.1] 200 GET /api/rest/events/56?fields=changes
+ 09/06/23 12:54:29,063 [YouTrack@127.0.0.1] 200 GET /api/rest/events/59?fields=changes
+ 09/06/23 12:54:29,068 [YouTrack@127.0.0.1] 200 GET /api/rest/events/62?fields=changes
+ 09/06/23 12:54:29,074 [YouTrack@127.0.0.1] 200 GET /api/rest/events/65?fields=changes
+ 09/06/23 12:54:29,081 [YouTrack@127.0.0.1] 200 GET /api/rest/events/68?fields=changes
+ 09/06/23 12:54:29,086 [YouTrack@127.0.0.1] 200 GET /api/rest/events/71?fields=changes
+ 09/06/23 12:54:29,092 [YouTrack@127.0.0.1] 200 GET /api/rest/events/74?fields=changes
+ 09/06/23 12:54:29,098 [YouTrack@127.0.0.1] 200 GET /api/rest/events/77?fields=changes
+ 09/06/23 12:54:29,105 [YouTrack@127.0.0.1] 200 GET /api/rest/events/80?fields=changes
+ 09/06/23 12:54:29,111 [YouTrack@127.0.0.1] 200 GET /api/rest/events/83?fields=changes
+ 09/06/23 12:54:29,117 [YouTrack@127.0.0.1] 200 GET /api/rest/events/86?fields=changes
+ 09/06/23 12:54:29,123 [YouTrack@127.0.0.1] 200 GET /api/rest/events/89?fields=changes
+ 09/06/23 12:54:29,130 [YouTrack@127.0.0.1] 200 GET /api/rest/events/92?fields=changes
+ 09/06/23 12:54:29,135 [YouTrack@127.0.0.1] 200 GET /api/rest/events/95?fields=changes
+ 09/06/23 12:54:29,142 [YouTrack@127.0.0.1] 200 GET /api/rest/events/98?fields=changes
+ 09/06/23 12:54:29,148 [YouTrack@127.0.0.1] 200 GET /api/rest/events/101?fields=changes
+ 09/06/23 12:54:29,153 [YouTrack@127.0.0.1] 200 GET /api/rest/events/104?fields=changes
+ 09/06/23 12:54:29,159 [YouTrack@127.0.0.1] 200 GET /api/rest/events/107?fields=changes
+ 09/06/23 12:54:29,164 [YouTrack@127.0.0.1] 200 GET /api/rest/events/110?fields=changes
+ 09/06/23 12:54:29,169 [YouTrack@127.0.0.1] 200 GET /api/rest/events/113?fields=changes
+ 09/06/23 12:54:29,175 [YouTrack@127.0.0.1] 200 GET /api/rest/events/116?fields=changes
+ 09/06/23 12:54:29,180 [YouTrack@127.0.0.1] 200 GET /api/rest/events/119?fields=changes
+ 09/06/23 12:54:29,186 [YouTrack@127.0.0.1] 200 GET /api/rest/events/122?fields=changes
+ 09/06/23 12:54:29,194 [YouTrack@127.0.0.1] 200 GET /api/rest/events/125?fields=changes
+ 09/06/23 12:54:29,200 [YouTrack@127.0.0.1] 200 GET /api/rest/events/128?fields=changes
+ 09/06/23 12:54:29,208 [YouTrack@127.0.0.1] 200 GET /api/rest/events/131?fields=changes
+ 09/06/23 12:54:29,215 [YouTrack@127.0.0.1] 200 GET /api/rest/events/134?fields=changes
+ 09/06/23 12:54:29,222 [YouTrack@127.0.0.1] 200 GET /api/rest/events/137?fields=changes
+ 09/06/23 12:54:29,229 [YouTrack@127.0.0.1] 200 GET /api/rest/events/140?fields=changes
+ 09/06/23 12:54:29,235 [YouTrack@127.0.0.1] 200 GET /api/rest/events/143?fields=changes
+ 09/06/23 12:54:29,242 [YouTrack@127.0.0.1] 200 GET /api/rest/events/146?fields=changes
+ 09/06/23 12:54:29,247 [YouTrack@127.0.0.1] 200 GET /api/rest/events/152?fields=changes
+ 09/06/23 12:54:29,255 [YouTrack@127.0.0.1] 200 GET /api/rest/events/154?fields=changes
+ 09/06/23 12:54:29,262 [YouTrack@127.0.0.1] 200 GET /api/rest/events/156?fields=changes
+ 09/06/23 12:54:29,285 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/212f390b-6f84-491d-8114-3a90de39d464?fields=name
+ 09/06/23 12:54:29,335 [YouTrack@127.0.0.1] 409 POST /api/rest/usergroups
+ 09/06/23 12:54:29,354 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups?query=name: {Registered Users}
+ 09/06/23 12:54:29,371 [YouTrack@127.0.0.1] 200 POST /api/rest/usergroups/a2cf3181-a2f8-4053-8486-3a337ea99bbd
+ 09/06/23 12:54:29,380 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {156}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:29,441 [YouTrack@127.0.0.1] 409 POST /api/rest/users
+ 09/06/23 12:54:29,450 [YouTrack@127.0.0.1] 200 GET /api/rest/users?query=login: guest
+ 09/06/23 12:54:29,462 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=banned
+ 09/06/23 12:54:29,480 [YouTrack@127.0.0.1] 200 POST /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef
+ 09/06/23 12:54:29,487 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {156}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:29,513 [YouTrack@127.0.0.1] 409 POST /api/rest/users
+ 09/06/23 12:54:29,525 [YouTrack@127.0.0.1] 200 GET /api/rest/users?query=login: admin
+ 09/06/23 12:54:29,537 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=banned
+ 09/06/23 12:54:29,558 [YouTrack@127.0.0.1] 200 POST /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f
+ 09/06/23 12:54:29,564 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {156}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:29,574 [YouTrack@127.0.0.1] 200 GET /api/rest/userdetails/49e842dd-df2d-47f1-9204-5a4f9534d18b?fields=id
+ 09/06/23 12:54:29,580 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=id,aliases,groups/id,teams/id,transitiveTeams/id,projectRoles/id,organizationRoles/id,transitiveOrganizations/id,licenses/id,userType/id,profile(email,jabber,locale,avatar,attributes(id,value,prototype(id,name,type,showOnUserList)))
+ 09/06/23 12:54:29,586 [YouTrack@127.0.0.1] 200 GET /api/rest/events/158?fields=changes
+ 09/06/23 12:54:29,595 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=id,login,name,banned,banBadge,guest,profile(email(email,verified),jabber(jabber,verified),locale/language,attributes(prototype(name,type),value)),transitiveGroups(id,aliases/id,allUsers),transitiveTeams/id,details/id,aliases(id,action),favoriteProjects/id,userType/id
+ 09/06/23 12:54:29,610 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=id,login,name,banned,banBadge,guest,profile(email(email,verified),jabber(jabber,verified),locale/language,attributes(prototype(name,type),value)),transitiveGroups(id,aliases/id,allUsers),transitiveTeams/id,details/id,aliases(id,action),favoriteProjects/id,userType/id
+ 09/06/23 12:54:29,623 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?archived=true&$top=2147483647&fields=resources/id,id
+ 09/06/23 12:54:29,635 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/root?fields=id
+ 09/06/23 12:54:29,647 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=transitiveGroups
+ 09/06/23 12:54:29,657 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/e94410d3-5b8c-4b13-a5d3-878f406ec362?fields=global
+ 09/06/23 12:54:29,662 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/65b07cc9-af74-4412-a218-819b75905f4d?fields=global
+ 09/06/23 12:54:29,667 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ae8f9c07-5389-445d-a07c-293e5c7eeeda?fields=global
+ 09/06/23 12:54:29,672 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c5312200-3356-4b70-96bf-d9cf9948fa13?fields=global
+ 09/06/23 12:54:29,677 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/b11bdaed-54fd-447c-b877-940f901495f1?fields=global
+ 09/06/23 12:54:29,681 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/38502f17-ea7e-4bd5-a067-5f2ea3afcdb6?fields=global
+ 09/06/23 12:54:29,686 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/f1206d69-ec72-456b-91fb-f7206f490d49?fields=global
+ 09/06/23 12:54:29,691 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/94192a04-efe7-480e-9dee-a453dd8c4ef4?fields=global
+ 09/06/23 12:54:29,695 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/f71e540f-d9de-43e6-aa07-8b7099bd505e?fields=global
+ 09/06/23 12:54:29,700 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c0ad8fdb-2a35-4b25-aa49-d5b9b6a213aa?fields=global
+ 09/06/23 12:54:29,705 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c6ea2f98-ba7d-4e52-927a-fc7249b9ac51?fields=global
+ 09/06/23 12:54:29,710 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/a3f09b15-3bdf-4e1e-baae-7b7df81e26b6?fields=global
+ 09/06/23 12:54:29,716 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ee471da3-50b1-4728-b385-cbc01d7a8579?fields=global
+ 09/06/23 12:54:29,722 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/8cb174ce-b887-42db-8297-0ac2db81fcb6?fields=global
+ 09/06/23 12:54:29,728 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c2815bda-2fde-4533-98bc-c2ef6bea45a1?fields=global
+ 09/06/23 12:54:29,734 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/17df7b14-48f2-4538-8eb6-97e4b4ed7d80?fields=global
+ 09/06/23 12:54:29,740 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/0d002662-e5c0-4493-b422-eae6204e8c6c?fields=global
+ 09/06/23 12:54:29,748 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/8563fa49-3182-4a89-be2f-2165ce27deb5?fields=global
+ 09/06/23 12:54:29,752 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/fe3eacdf-e838-44dc-a166-6ad5b9e03a9b?fields=global
+ 09/06/23 12:54:29,758 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/3f64e22b-07ff-4f68-a945-b1abfa0067a7?fields=global
+ 09/06/23 12:54:29,762 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/1011f91d-3a59-424e-8744-31e62a880643?fields=global
+ 09/06/23 12:54:29,767 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/06b72719-36d3-4092-9da6-638c0a7abc86?fields=global
+ 09/06/23 12:54:29,772 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ed1bc0ef-bd24-42c7-a32a-0262cc3b8924?fields=global
+ 09/06/23 12:54:29,777 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/1e7bbd07-f408-40fb-aa42-559b5204da8b?fields=global
+ 09/06/23 12:54:29,782 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/0ab47f74-29cb-461e-88a4-a7929079dc70?fields=global
+ 09/06/23 12:54:29,787 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/1a26d08f-552c-4f3f-8580-5df5502e339c?fields=global
+ 09/06/23 12:54:29,792 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/4ed07a29-5cd8-4f08-9e30-766ae5454b7c?fields=global
+ 09/06/23 12:54:29,797 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/292c4d8f-7c06-43a1-b294-7bdd77d3cf56?fields=global
+ 09/06/23 12:54:29,802 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/df43d275-ac62-4b94-b738-b53dcccb6f3d?fields=global
+ 09/06/23 12:54:29,807 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/82bf0fdb-f980-4840-bb00-897fc0a80638?fields=global
+ 09/06/23 12:54:29,811 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/b7818949-ea4b-4361-9bc5-b069b32ef6d3?fields=global
+ 09/06/23 12:54:29,816 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/d9a3b5fb-e48b-417f-bc51-cad833ed75cb?fields=global
+ 09/06/23 12:54:29,820 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/cb60da61-b42c-4327-8eb7-9e227efe74f4?fields=global
+ 09/06/23 12:54:29,826 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/9b4df35d-1d47-422d-94f4-f04ee4269e69?fields=global
+ 09/06/23 12:54:29,830 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/22e6397f-45e6-4759-93f1-b8de9942d230?fields=global
+ 09/06/23 12:54:29,835 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/871d5f85-6b09-4492-a517-df736a93ecfd?fields=global
+ 09/06/23 12:54:29,839 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/24f01613-9437-4167-a7f1-a32e80c3fe42?fields=global
+ 09/06/23 12:54:29,844 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5a3a4d25-0359-4dcf-a2c9-975233196e75?fields=global
+ 09/06/23 12:54:29,850 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5393d906-45d1-41b6-86ae-a90dc642bf57?fields=global
+ 09/06/23 12:54:29,855 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/86824df5-ed1a-4235-b639-98045ecd4cf3?fields=global
+ 09/06/23 12:54:29,860 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/030e76d8-8e8b-42dc-a660-1502555c4839?fields=global
+ 09/06/23 12:54:29,865 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/d7b20a99-37dd-406d-b010-4e9ca9fd7832?fields=global
+ 09/06/23 12:54:29,869 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/272d8168-b8a2-4c11-81c7-c1d4fbb3c84e?fields=global
+ 09/06/23 12:54:29,873 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ea14ea70-6464-4bc0-bf03-b331e1fc7879?fields=global
+ 09/06/23 12:54:29,879 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/4c848f99-4651-4951-9a74-fd557c4a419d?fields=global
+ 09/06/23 12:54:29,883 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/345bc677-e07a-43bf-aee0-f10ed6da4e87?fields=global
+ 09/06/23 12:54:29,888 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/94faf4d9-9657-4431-8981-55e63fb97db9?fields=global
+ 09/06/23 12:54:29,893 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/29b1d9c2-e306-46f9-ac3d-d03d45bec096?fields=global
+ 09/06/23 12:54:29,898 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/ea1d9a92-6b22-4152-8b83-35982dcc0adb?fields=global
+ 09/06/23 12:54:29,902 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/98850b34-c94d-4ba1-8312-11e2de9c7768?fields=global
+ 09/06/23 12:54:29,907 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/084aa44a-c962-419a-9e2a-2dbef315b8e8?fields=global
+ 09/06/23 12:54:29,911 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5854cbc6-4e50-4ccf-bb52-04e2e93a5d24?fields=global
+ 09/06/23 12:54:29,915 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/5bcad25b-d635-46d0-8d23-f920e83528c3?fields=global
+ 09/06/23 12:54:29,919 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/af7ea7df-32e6-4873-ac6e-5e87ecb4e5a8?fields=global
+ 09/06/23 12:54:29,925 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/a30f0d20-6747-4af7-b1fa-d7071da53365?fields=global
+ 09/06/23 12:54:29,929 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/08ab86ac-bf02-4411-9b68-29220f507d00?fields=global
+ 09/06/23 12:54:29,933 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/7617b6dd-bc0e-40a4-b4e8-ed3af7daee44?fields=global
+ 09/06/23 12:54:29,938 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/115138df-0efe-4a78-8939-7e43287fb64b?fields=global
+ 09/06/23 12:54:29,943 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/6f214f65-8de6-4954-8c38-12d47ea18c3c?fields=global
+ 09/06/23 12:54:29,949 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/6287ec0a-9330-4e6a-8d4b-6f81814e6f24?fields=global
+ 09/06/23 12:54:29,955 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/c2566c78-5941-4266-9ad9-3ac0f21dc837?fields=global
+ 09/06/23 12:54:29,959 [YouTrack@127.0.0.1] 200 GET /api/rest/permissions/59c85e56-a51e-4566-8312-32501d837a48?fields=global
+ 09/06/23 12:54:29,967 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=transitiveGroups
+ 09/06/23 12:54:29,982 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:29,997 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/a2cf3181-a2f8-4053-8486-3a337ea99bbd?fields=id,aliases(id,action),name,description,iconUrl,autoJoin,allUsers,registeredUsers
+ 09/06/23 12:54:30,014 [YouTrack@127.0.0.1] 200 GET /api/rest/usergroups/byname/Registered Users?fields=id,aliases(id,action),name,description,iconUrl,autoJoin,allUsers,registeredUsers
+ 09/06/23 12:54:30,029 [YouTrack@127.0.0.1] 200 GET /api/rest/users?$top=-1&query=is: banned&fields=id
+ 09/06/23 12:54:30,035 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=id,login,name,banned,banBadge,guest,profile(email(email,verified),jabber(jabber,verified),locale/language,attributes(prototype(name,type),value)),transitiveGroups(id,aliases/id,allUsers),transitiveTeams/id,details/id,aliases(id,action),favoriteProjects/id,userType/id
+ 09/06/23 12:54:30,047 [YouTrack@127.0.0.1] 200 GET /api/rest/users/1802d08b-6d50-44ae-8eba-8973a3db80ef?fields=id,login,name,banned,banBadge,guest,profile(email(email,verified),jabber(jabber,verified),locale/language,attributes(prototype(name,type),value)),transitiveGroups(id,aliases/id,allUsers),transitiveTeams/id,details/id,aliases(id,action),favoriteProjects/id,userType/id
+ 09/06/23 12:54:30,056 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/0?fields=global
+ 09/06/23 12:54:30,097 [YouTrack@127.0.0.1] 200 GET /api/rest/settings?query=type: internal&fields=id,debugCategories
+ 09/06/23 12:54:30,114 [YouTrack@127.0.0.1] 200 POST /api/rest/settings/e8d64364-99b2-4b67-ae8c-83050f52e27d
+ 09/06/23 12:54:30,128 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705/viewers
+ 09/06/23 12:54:30,139 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:30,161 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:30,167 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=baseUrls
+ 09/06/23 12:54:30,172 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:54:30,178 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {158}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:31,182 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:31,204 [YouTrack@127.0.0.1] 200 GET /api/rest/events/16?fields=author
+ 09/06/23 12:54:31,214 [YouTrack@127.0.0.1] 200 GET /api/rest/events/17?fields=author
+ 09/06/23 12:54:31,223 [YouTrack@127.0.0.1] 200 GET /api/rest/events/19?fields=author
+ 09/06/23 12:54:31,230 [YouTrack@127.0.0.1] 200 GET /api/rest/events/21?fields=author
+ 09/06/23 12:54:31,238 [YouTrack@127.0.0.1] 200 GET /api/rest/events/23?fields=author
+ 09/06/23 12:54:31,247 [YouTrack@127.0.0.1] 200 GET /api/rest/events/25?fields=author
+ 09/06/23 12:54:31,254 [YouTrack@127.0.0.1] 200 GET /api/rest/events/26?fields=author
+ 09/06/23 12:54:31,263 [YouTrack@127.0.0.1] 200 GET /api/rest/events/153?fields=author
+ 09/06/23 12:54:31,269 [YouTrack@127.0.0.1] 200 GET /api/rest/events/154?fields=author
+ 09/06/23 12:54:31,276 [YouTrack@127.0.0.1] 200 GET /api/rest/events/155?fields=author
+ 09/06/23 12:54:31,282 [YouTrack@127.0.0.1] 200 GET /api/rest/events/156?fields=author
+ 09/06/23 12:54:31,290 [YouTrack@127.0.0.1] 200 GET /api/rest/events/158?fields=author
+ 09/06/23 12:54:31,881 [YouTrack@127.0.0.1] 200 POST /api/rest/resources
+ 09/06/23 12:54:31,901 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?archived=true&$top=2147483647
+ 09/06/23 12:54:31,951 [YouTrack@127.0.0.1] 200 POST /api/rest/projects?fields=id,team/id,icon
+ 09/06/23 12:54:31,960 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:31,965 [YouTrack@127.0.0.1] 200 GET /api/rest/resources/95f1bddc-cf69-46f0-8112-305345ab1b03?fields=id,key,aliases
+ 09/06/23 12:54:31,981 [YouTrack@127.0.0.1] 200 POST /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3/resources?fields=id
+ 09/06/23 12:54:31,998 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {158}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:32,004 [YouTrack@127.0.0.1] 200 GET /api/rest/resources/95f1bddc-cf69-46f0-8112-305345ab1b03?fields=id,key,aliases
+ 09/06/23 12:54:32,009 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/0?fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:32,015 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:54:32,020 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:32,035 [YouTrack@127.0.0.1] 200 GET /api/rest/projectteams/b443bcac-4388-4187-94f2-fb549d8b2650?fields=id,aliases,project/id,projectRoles/id,organizationRoles/id
+ 09/06/23 12:54:32,041 [YouTrack@127.0.0.1] 200 GET /api/rest/projectroles/c97ab6b9-e983-4830-bfe6-5f144e6a5887?fields=id,role/id,project/id
+ 09/06/23 12:54:32,048 [YouTrack@127.0.0.1] 200 GET /api/rest/projectroles/4089040b-5be1-4d40-b498-ce79b57e9915?fields=id,role/id,project/id
+ 09/06/23 12:54:32,057 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=id,aliases,groups/id,teams/id,transitiveTeams/id,projectRoles/id,organizationRoles/id,transitiveOrganizations/id,licenses/id,userType/id,profile(email,jabber,locale,avatar,attributes(id,value,prototype(id,name,type,showOnUserList)))
+ 09/06/23 12:54:32,063 [YouTrack@127.0.0.1] 200 GET /api/rest/events/160?fields=changes
+ 09/06/23 12:54:32,070 [YouTrack@127.0.0.1] 200 GET /api/rest/events/169?fields=changes
+ 09/06/23 12:54:32,076 [YouTrack@127.0.0.1] 200 GET /api/rest/events/161?fields=changes
+ 09/06/23 12:54:32,082 [YouTrack@127.0.0.1] 200 GET /api/rest/events/168?fields=changes
+ 09/06/23 12:54:32,088 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/0?fields=archived
+ 09/06/23 12:54:32,095 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=archived
+ 09/06/23 12:54:32,110 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?archived=true&$top=2147483647&fields=resources/id,id
+ 09/06/23 12:54:32,119 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?query=resource: 95f1bddc-cf69-46f0-8112-305345ab1b03&fields=icon
+ 09/06/23 12:54:33,700 [YouTrack@127.0.0.1] 200 POST /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f/favoriteprojects
+ 09/06/23 12:54:33,736 [YouTrack@127.0.0.1] 200 POST /api/rest/resources/95f1bddc-cf69-46f0-8112-305345ab1b03
+ 09/06/23 12:54:33,759 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {171}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:33,773 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=id,aliases,groups/id,teams/id,transitiveTeams/id,projectRoles/id,organizationRoles/id,transitiveOrganizations/id,licenses/id,userType/id,profile(email,jabber,locale,avatar,attributes(id,value,prototype(id,name,type,showOnUserList)))
+ 09/06/23 12:54:33,781 [YouTrack@127.0.0.1] 200 GET /api/rest/resources/95f1bddc-cf69-46f0-8112-305345ab1b03?fields=id,key,aliases
+ 09/06/23 12:54:33,789 [YouTrack@127.0.0.1] 200 GET /api/rest/events/172?fields=changes
+ 09/06/23 12:54:33,795 [YouTrack@127.0.0.1] 200 GET /api/rest/events/173?fields=changes
+ 09/06/23 12:54:33,800 [YouTrack@127.0.0.1] 200 GET /api/rest/resources/95f1bddc-cf69-46f0-8112-305345ab1b03?fields=project
+ 09/06/23 12:54:33,816 [YouTrack@127.0.0.1] 200 POST /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3
+ 09/06/23 12:54:33,824 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {173}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:33,829 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=id,key,aliases,name,projectType/id
+ 09/06/23 12:54:33,837 [YouTrack@127.0.0.1] 200 GET /api/rest/events/174?fields=changes
+ 09/06/23 12:54:33,858 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:33,886 [YouTrack@127.0.0.1] 200 POST /api/rest/dashboards?fields=id
+ 09/06/23 12:54:33,893 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {174}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:33,907 [YouTrack@127.0.0.1] 200 GET /api/rest/dashboards/cc16a8a2-e9a3-452c-9403-9f5762a96acb?fields=id,aliases
+ 09/06/23 12:54:33,918 [YouTrack@127.0.0.1] 200 GET /api/rest/events/176?fields=targetPresentation
+ 09/06/23 12:54:33,928 [YouTrack@127.0.0.1] 200 GET /api/rest/events/176?fields=authorType
+ 09/06/23 12:54:33,938 [YouTrack@127.0.0.1] 200 GET /api/rest/events/176?fields=authorPresentation
+ 09/06/23 12:54:33,947 [YouTrack@127.0.0.1] 200 GET /api/rest/events/176?fields=timestamp
+ 09/06/23 12:54:34,124 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:34,132 [YouTrack@127.0.0.1] 200 GET /api/rest/events/159?fields=author
+ 09/06/23 12:54:34,141 [YouTrack@127.0.0.1] 200 GET /api/rest/events/160?fields=author
+ 09/06/23 12:54:34,147 [YouTrack@127.0.0.1] 200 GET /api/rest/events/161?fields=author
+ 09/06/23 12:54:34,154 [YouTrack@127.0.0.1] 200 GET /api/rest/events/162?fields=author
+ 09/06/23 12:54:34,163 [YouTrack@127.0.0.1] 200 GET /api/rest/events/164?fields=author
+ 09/06/23 12:54:34,169 [YouTrack@127.0.0.1] 200 GET /api/rest/events/168?fields=author
+ 09/06/23 12:54:34,175 [YouTrack@127.0.0.1] 200 GET /api/rest/events/172?fields=author
+ 09/06/23 12:54:34,182 [YouTrack@127.0.0.1] 200 GET /api/rest/events/173?fields=author
+ 09/06/23 12:54:34,203 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?archived=true&$top=2147483647&fields=resources/id,id
+ 09/06/23 12:54:34,212 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=team
+ 09/06/23 12:54:34,229 [YouTrack@127.0.0.1] 200 GET /api/rest/projectteams/b443bcac-4388-4187-94f2-fb549d8b2650?fields=id,name,project/id,aliases(id,action),users/id
+ 09/06/23 12:54:34,264 [YouTrack@127.0.0.1] 200 GET /api/rest/events/174?fields=author
+ 09/06/23 12:54:34,270 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=archived
+ 09/06/23 12:54:34,276 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=icon
+ 09/06/23 12:54:34,284 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=description
+ 09/06/23 12:54:34,290 [YouTrack@127.0.0.1] 200 GET /api/rest/projects/767fd116-f4fa-4f76-8b99-438e6ac7c4d3?fields=global
+ 09/06/23 12:54:34,301 [YouTrack@127.0.0.1] 200 GET /api/rest/users/9a966e64-9cb7-4162-90db-fa459d1c0a8f?fields=transitiveGroups
+ 09/06/23 12:54:37,125 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:37,134 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:40,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:43,120 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:43,125 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:46,121 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:46,128 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:49,122 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:49,129 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:52,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:55,126 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:54:55,133 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:54:58,121 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:01,122 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:01,129 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:04,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:07,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:07,125 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:10,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:13,120 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:13,126 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:16,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:19,121 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:19,129 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:22,121 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:25,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:25,124 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:28,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:28,124 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:29,994 [YouTrack@127.0.0.1] 200 GET /api/rest/dashboards?$skip=0&$top=10000&fields=id,data
+ 09/06/23 12:55:30,017 [YouTrack@127.0.0.1] 200 POST /api/rest/dashboards/ae13effa-65a5-4e73-837a-445ec1f47e9d
+ 09/06/23 12:55:30,027 [YouTrack@127.0.0.1] 200 POST /api/rest/dashboards/cc16a8a2-e9a3-452c-9403-9f5762a96acb
+ 09/06/23 12:55:30,038 [YouTrack@127.0.0.1] 200 GET /api/rest/projects?$skip=0&$top=10000&fields=id,global,dashboard
+ 09/06/23 12:55:31,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:34,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:34,126 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:37,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:40,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:40,123 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:43,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:46,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:46,123 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:49,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:49,124 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:52,120 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:52,127 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:52,253 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=baseUrls
+ 09/06/23 12:55:52,260 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:55:52,266 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {176}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:52,272 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=id,aliases,projectRoles/id,organizationRoles/id,defaultRoles(id,name,description,permissions)
+ 09/06/23 12:55:52,279 [YouTrack@127.0.0.1] 200 GET /api/rest/events/177?fields=changes
+ 09/06/23 12:55:52,285 [YouTrack@127.0.0.1] 200 GET /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705?fields=baseUrls
+ 09/06/23 12:55:52,290 [YouTrack@127.0.0.1] 200 POST /api/rest/services/62486447-3c0d-4800-b702-b32af8a58705
+ 09/06/23 12:55:52,295 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {177}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:52,677 [YouTrack@127.0.0.1] 200 GET /api/rest/services/d60cd8a8-4efc-4bac-a4a1-30e46b2bcd07?fields=applicationName
+ 09/06/23 12:55:52,694 [YouTrack@127.0.0.1] 200 GET /api/rest/services/0-0-0-0-0?fields=applicationName
+ 09/06/23 12:55:52,700 [YouTrack@127.0.0.1] 200 GET /api/rest/services/88ae3652-3d45-46d3-80f3-ce149538ca66?fields=applicationName
+ 09/06/23 12:55:52,705 [YouTrack@127.0.0.1] 200 GET /api/rest/services/88ae3652-3d45-46d3-80f3-ce149538ca66?fields=key
+ 09/06/23 12:55:52,712 [YouTrack@127.0.0.1] 200 GET /api/rest/services/88ae3652-3d45-46d3-80f3-ce149538ca66?fields=homeUrl
+ 09/06/23 12:55:53,289 [guest@172.20.0.1] 200 GET /api/rest/settings/public?fields=locale(name,language,label),companyLogo,loginMessage,loginFieldPlaceholder,systemMessage
+ 09/06/23 12:55:53,292 [guest@172.20.0.1] 200 GET /api/rest/features/enabled
+ 09/06/23 12:55:55,119 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:55,126 [YouTrack@127.0.0.1] 200 GET /api/rest/events/177?fields=author
+ 09/06/23 12:55:58,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:55:58,124 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {177}&fields=id,targetType,targetId,type
+ 09/06/23 12:55:59,570 [guest@172.20.0.1] 200 GET /api/rest/features/enabled
+ 09/06/23 12:55:59,571 [guest@172.20.0.1] 200 GET /api/rest/settings/public?fields=locale(name,language,label),companyLogo,loginMessage,loginFieldPlaceholder,systemMessage
+ 09/06/23 12:56:01,120 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:56:01,126 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {177}&fields=id,targetType,targetId,type
+ 09/06/23 12:56:04,117 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:56:07,117 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:56:07,123 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {177}&fields=id,targetType,targetId,type
+ 09/06/23 12:56:10,118 [YouTrack@127.0.0.1] 200 GET /api/rest/services/me?fields=id,trusted
+ 09/06/23 12:56:10,124 [YouTrack@127.0.0.1] 200 GET /api/rest/events?$skip=0&$top=100&query=afterId: {177}&fields=id,targetType,targetId,type
+ 

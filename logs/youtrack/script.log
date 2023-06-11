@@ -1,0 +1,751 @@
+09/06/23 12:54:15,036 INFO  [@init servlet   ] [AdditionalMembersProviders    ] [init@] Started scanning classpath for @Api* annotations and creating Y-stuff
+ 09/06/23 12:54:16,263 INFO  [@init servlet   ] [AdditionalMembersProviders    ] [init@] Done scanning classpath for @Api* annotations and creating Y-stuff
+ 09/06/23 12:54:21,994 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-0] is undefined
+ 09/06/23 12:54:22,006 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named cache.js
+ 09/06/23 12:54:22,013 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named context-utils.js
+ 09/06/23 12:54:22,015 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named date-time.js
+ 09/06/23 12:54:22,025 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named entities.js
+ 09/06/23 12:54:22,027 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named environment.js
+ 09/06/23 12:54:22,036 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named http.js
+ 09/06/23 12:54:22,038 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named notifications.js
+ 09/06/23 12:54:22,041 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named search.js
+ 09/06/23 12:54:22,043 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named strings.js
+ 09/06/23 12:54:22,122 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-scripting-api
+ 09/06/23 12:54:22,135 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named workflow.js
+ 09/06/23 12:54:22,138 WARN  [@init servlet   ] [XdPlugin                      ] [@] Reset version for script package @jetbrains/youtrack-scripting-api from null to 2023.1.10168
+ 09/06/23 12:54:22,148 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-scripting-api
+ 09/06/23 12:54:22,153 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-1] is undefined
+ 09/06/23 12:54:22,156 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named macro-handlers.js
+ 09/06/23 12:54:22,157 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named minify-whitespace-replace.js
+ 09/06/23 12:54:22,159 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named stringify-handlers.js
+ 09/06/23 12:54:22,161 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named table-handlers.js
+ 09/06/23 12:54:22,163 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named tag-merge-processor.js
+ 09/06/23 12:54:22,228 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named third-party-dependencies.js
+ 09/06/23 12:54:22,234 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named to-markdown.js
+ 09/06/23 12:54:22,364 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-confluence-import-aux
+ 09/06/23 12:54:22,387 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-2] is undefined
+ 09/06/23 12:54:22,391 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named users-directory.js
+ 09/06/23 12:54:22,394 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-atlassian-utils
+ 09/06/23 12:54:22,395 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-3] is undefined
+ 09/06/23 12:54:22,398 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-connection.js
+ 09/06/23 12:54:22,400 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-fields.js
+ 09/06/23 12:54:22,402 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-history.js
+ 09/06/23 12:54:22,404 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-issue-converter.js
+ 09/06/23 12:54:22,412 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-issues-client.js
+ 09/06/23 12:54:22,414 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named bugzilla-utils.js
+ 09/06/23 12:54:22,449 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-bugzilla-client
+ 09/06/23 12:54:22,451 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-4] is undefined
+ 09/06/23 12:54:22,454 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named confluence-client.js
+ 09/06/23 12:54:22,456 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named connection.js
+ 09/06/23 12:54:22,465 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named extractor-articles.js
+ 09/06/23 12:54:22,467 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named extractor-spaces.js
+ 09/06/23 12:54:22,469 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named extractor-users.js
+ 09/06/23 12:54:22,503 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-confluence-client
+ 09/06/23 12:54:22,504 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-5] is undefined
+ 09/06/23 12:54:22,513 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named client.js
+ 09/06/23 12:54:22,515 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named demo-article.js
+ 09/06/23 12:54:22,518 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named demo-issue.js
+ 09/06/23 12:54:22,519 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named demo-project.js
+ 09/06/23 12:54:22,520 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named demo-user.js
+ 09/06/23 12:54:22,575 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-demo-client
+ 09/06/23 12:54:22,577 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-6] is undefined
+ 09/06/23 12:54:22,582 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-content-converter.js
+ 09/06/23 12:54:22,583 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-content-loader.js
+ 09/06/23 12:54:22,585 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-history-converter.js
+ 09/06/23 12:54:22,587 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-issue-converter.js
+ 09/06/23 12:54:22,599 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-issues-client.js
+ 09/06/23 12:54:22,601 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named github-utils.js
+ 09/06/23 12:54:22,638 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-github-issues-client
+ 09/06/23 12:54:22,641 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-7] is undefined
+ 09/06/23 12:54:22,654 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named gitlab-client.js
+ 09/06/23 12:54:22,657 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named gitlab-connection.js
+ 09/06/23 12:54:22,659 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named gitlab-issue-converter.js
+ 09/06/23 12:54:22,661 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named gitlab-utils.js
+ 09/06/23 12:54:22,696 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-gitlab-client
+ 09/06/23 12:54:22,697 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-8] is undefined
+ 09/06/23 12:54:22,706 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named client.js
+ 09/06/23 12:54:22,715 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named events.js
+ 09/06/23 12:54:22,723 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named fields.js
+ 09/06/23 12:54:22,732 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named issue-handler.js
+ 09/06/23 12:54:22,734 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named links.js
+ 09/06/23 12:54:22,735 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named security.js
+ 09/06/23 12:54:22,736 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named utils.js
+ 09/06/23 12:54:22,790 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-jira-client
+ 09/06/23 12:54:22,792 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-9] is undefined
+ 09/06/23 12:54:22,795 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named issues.js
+ 09/06/23 12:54:22,797 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named json-client.js
+ 09/06/23 12:54:22,798 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named projects.js
+ 09/06/23 12:54:22,802 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-json-client
+ 09/06/23 12:54:22,803 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-10] is undefined
+ 09/06/23 12:54:22,813 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named mantis-issues-client.js
+ 09/06/23 12:54:22,814 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named utils.js
+ 09/06/23 12:54:22,843 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-mantis-issues-client
+ 09/06/23 12:54:22,844 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-11] is undefined
+ 09/06/23 12:54:22,846 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attach.js
+ 09/06/23 12:54:22,847 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attach_converter.js
+ 09/06/23 12:54:22,848 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named client.js
+ 09/06/23 12:54:22,849 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named comment.js
+ 09/06/23 12:54:22,849 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field.js
+ 09/06/23 12:54:22,852 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field_converter.js
+ 09/06/23 12:54:22,854 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field_relation.js
+ 09/06/23 12:54:22,856 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named group.js
+ 09/06/23 12:54:22,857 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named history.js
+ 09/06/23 12:54:22,858 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named issue.js
+ 09/06/23 12:54:22,859 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named project.js
+ 09/06/23 12:54:22,860 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named project_field_converter.js
+ 09/06/23 12:54:22,862 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named query.js
+ 09/06/23 12:54:22,864 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named tag.js
+ 09/06/23 12:54:22,865 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named user.js
+ 09/06/23 12:54:22,866 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named util.js
+ 09/06/23 12:54:22,867 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named vote.js
+ 09/06/23 12:54:22,880 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-monday-client
+ 09/06/23 12:54:22,882 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-12] is undefined
+ 09/06/23 12:54:22,889 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named connection.js
+ 09/06/23 12:54:22,902 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named redmine-client.js
+ 09/06/23 12:54:22,912 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named utils.js
+ 09/06/23 12:54:22,964 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-redmine-client
+ 09/06/23 12:54:22,965 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-13] is undefined
+ 09/06/23 12:54:22,968 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named space-article-converter.js
+ 09/06/23 12:54:22,969 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named space-client.js
+ 09/06/23 12:54:22,970 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named space-connection.js
+ 09/06/23 12:54:22,981 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named space-issue-converter.js
+ 09/06/23 12:54:23,020 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-space-client
+ 09/06/23 12:54:23,022 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-14] is undefined
+ 09/06/23 12:54:23,025 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attachment.js
+ 09/06/23 12:54:23,027 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named client.js
+ 09/06/23 12:54:23,030 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named comment.js
+ 09/06/23 12:54:23,033 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field-converter.js
+ 09/06/23 12:54:23,035 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field-recognizer.js
+ 09/06/23 12:54:23,040 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named field.js
+ 09/06/23 12:54:23,042 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named issue.js
+ 09/06/23 12:54:23,044 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named link.js
+ 09/06/23 12:54:23,046 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named old-issue.js
+ 09/06/23 12:54:23,047 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named project-field-converter.js
+ 09/06/23 12:54:23,049 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named project.js
+ 09/06/23 12:54:23,050 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named type-conversation.js
+ 09/06/23 12:54:23,053 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named user.js
+ 09/06/23 12:54:23,056 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named util.js
+ 09/06/23 12:54:23,065 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-spreadsheets-client
+ 09/06/23 12:54:23,067 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-15] is undefined
+ 09/06/23 12:54:23,072 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-articles-history.js
+ 09/06/23 12:54:23,074 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-articles.js
+ 09/06/23 12:54:23,076 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-client.js
+ 09/06/23 12:54:23,079 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-common-objects.js
+ 09/06/23 12:54:23,080 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-issues-fields.js
+ 09/06/23 12:54:23,082 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-issues-history.js
+ 09/06/23 12:54:23,091 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-issues.js
+ 09/06/23 12:54:23,094 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-project.js
+ 09/06/23 12:54:23,096 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-uri-creator.js
+ 09/06/23 12:54:23,098 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named youtrack-utils.js
+ 09/06/23 12:54:23,106 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-youtrack-client
+ 09/06/23 12:54:23,108 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-16] is undefined
+ 09/06/23 12:54:23,112 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named converter.js
+ 09/06/23 12:54:23,117 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-wiki-to-markdown-converter
+ 09/06/23 12:54:23,119 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-17] is undefined
+ 09/06/23 12:54:23,124 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named agreement.js
+ 09/06/23 12:54:23,128 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named connection.js
+ 09/06/23 12:54:23,141 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named on-imported-issue-update.js
+ 09/06/23 12:54:23,155 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named zendesk-client-common.js
+ 09/06/23 12:54:23,164 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named zendesk-client.js
+ 09/06/23 12:54:23,165 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named zendesk-integration-client.js
+ 09/06/23 12:54:23,198 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-zendesk-client
+ 09/06/23 12:54:23,219 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-18] is undefined
+ 09/06/23 12:54:23,222 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named assignee-not-in-group.js
+ 09/06/23 12:54:23,228 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-assignee-visibility-group
+ 09/06/23 12:54:23,421 DEBUG [@init servlet   ] [ScriptsDebuggerProvider       ] [@] Debugger instrument is created
+ 09/06/23 12:54:23,429 DEBUG [@init servlet   ] [DebuggerServer                ] [@] New debug environment is assigned
+ 09/06/23 12:54:23,434 DEBUG [@init servlet   ] [DebuggerInstrument            ] [@] Debugger instrument is created
+ 09/06/23 12:54:24,971 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-19] is undefined
+ 09/06/23 12:54:24,975 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named from-normal-to-major-in-7-days.js
+ 09/06/23 12:54:24,976 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named from-major-to-critical-in-10-days.js
+ 09/06/23 12:54:24,977 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named from-critical-to-show-stopper-in-12-days.js
+ 09/06/23 12:54:24,980 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-auto-raise-priority
+ 09/06/23 12:54:25,141 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-20] is undefined
+ 09/06/23 12:54:25,143 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named clear-fix-versions.js
+ 09/06/23 12:54:25,145 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-clear-fix-versions
+ 09/06/23 12:54:25,146 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-21] is undefined
+ 09/06/23 12:54:25,149 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named clone-to-draft.js
+ 09/06/23 12:54:25,150 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named clone.js
+ 09/06/23 12:54:25,153 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-clone-issue
+ 09/06/23 12:54:25,209 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-22] is undefined
+ 09/06/23 12:54:25,211 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named no-comments-for-verified.js
+ 09/06/23 12:54:25,213 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-comments
+ 09/06/23 12:54:25,213 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-23] is undefined
+ 09/06/23 12:54:25,215 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named default-description.js
+ 09/06/23 12:54:25,217 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-default-description
+ 09/06/23 12:54:25,218 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-24] is undefined
+ 09/06/23 12:54:25,219 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named fix-with-unresolved-links.js
+ 09/06/23 12:54:25,221 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-dependencies
+ 09/06/23 12:54:25,223 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-25] is undefined
+ 09/06/23 12:54:25,225 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named notify-assignee-on-overdue.js
+ 09/06/23 12:54:25,226 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named require-due-date.js
+ 09/06/23 12:54:25,231 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-due-date
+ 09/06/23 12:54:25,232 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-26] is undefined
+ 09/06/23 12:54:25,236 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named flatten-duplicates-structure.js
+ 09/06/23 12:54:25,237 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named issue-in-duplicate-state-must-have-duplicates-link.js
+ 09/06/23 12:54:25,238 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named raise-priority-when-duplicate-added.js
+ 09/06/23 12:54:25,239 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named reopen-issue-when-last-duplicate-removed.js
+ 09/06/23 12:54:25,240 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named set-to-duplicate-when-have-duplicates-link.js
+ 09/06/23 12:54:25,244 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-duplicates
+ 09/06/23 12:54:25,248 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-27] is undefined
+ 09/06/23 12:54:25,251 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attach-file-comment.js
+ 09/06/23 12:54:25,253 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attach-file-description.js
+ 09/06/23 12:54:25,254 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named attach-file-utils.js
+ 09/06/23 12:54:25,257 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-forgotten-attachment
+ 09/06/23 12:54:25,258 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-28] is undefined
+ 09/06/23 12:54:25,263 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named duplicate.js
+ 09/06/23 12:54:25,265 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named merge-tickets.js
+ 09/06/23 12:54:25,266 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named pending-ticket-retention.js
+ 09/06/23 12:54:25,268 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named reopen-on-reporter-reply.js
+ 09/06/23 12:54:25,269 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named ticket-from-comment.js
+ 09/06/23 12:54:25,275 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-helpdesk
+ 09/06/23 12:54:25,368 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-29] is undefined
+ 09/06/23 12:54:25,371 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named denied-combinations.js
+ 09/06/23 12:54:25,375 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-issue-properties-combinations
+ 09/06/23 12:54:25,376 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-30] is undefined
+ 09/06/23 12:54:25,378 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named allow-moving-ready-to-pull-only.js
+ 09/06/23 12:54:25,379 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named assign-on-move.js
+ 09/06/23 12:54:25,381 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-kanban
+ 09/06/23 12:54:25,383 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-31] is undefined
+ 09/06/23 12:54:25,387 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named notify-reporter-to-approve-fix.js
+ 09/06/23 12:54:25,388 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named state-lifecycle-with-verification-by-reporter.js
+ 09/06/23 12:54:25,393 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-notify-reporter-to-approve-fix
+ 09/06/23 12:54:25,395 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-32] is undefined
+ 09/06/23 12:54:25,398 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named notify-when-dependency-resolved.js
+ 09/06/23 12:54:25,402 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-notify-when-dependency-resolved
+ 09/06/23 12:54:25,403 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-33] is undefined
+ 09/06/23 12:54:25,406 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named vote-for-issue.js
+ 09/06/23 12:54:25,410 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-one-vote-comment
+ 09/06/23 12:54:25,412 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-34] is undefined
+ 09/06/23 12:54:25,415 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named dont-change-reason-manually.js
+ 09/06/23 12:54:25,417 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named pomodoro-countdown.js
+ 09/06/23 12:54:25,419 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named pomodoro-states.js
+ 09/06/23 12:54:25,424 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-pomodoro-timer
+ 09/06/23 12:54:25,425 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-35] is undefined
+ 09/06/23 12:54:25,429 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named profanity-blocker.js
+ 09/06/23 12:54:25,432 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named profanity-common.js
+ 09/06/23 12:54:25,438 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-profanity-blocker
+ 09/06/23 12:54:25,440 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-36] is undefined
+ 09/06/23 12:54:25,443 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named add-refers-link-to-mentioned-issues.js
+ 09/06/23 12:54:25,447 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-referred-issues
+ 09/06/23 12:54:25,448 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-37] is undefined
+ 09/06/23 12:54:25,450 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named replace-links.js
+ 09/06/23 12:54:25,453 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-replace-links
+ 09/06/23 12:54:25,454 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-38] is undefined
+ 09/06/23 12:54:25,457 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named no-votes-for-resolved.js
+ 09/06/23 12:54:25,461 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-resolved-votes
+ 09/06/23 12:54:25,462 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-39] is undefined
+ 09/06/23 12:54:25,464 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named assign-on-move.js
+ 09/06/23 12:54:25,465 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named fix-parent-on-subtasks-resolve.js
+ 09/06/23 12:54:25,467 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named no-ideal-days-for-epics.js
+ 09/06/23 12:54:25,468 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named no-story-points-for-tasks.js
+ 09/06/23 12:54:25,469 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named open-parent-on-subtask-open.js
+ 09/06/23 12:54:25,474 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-scrum
+ 09/06/23 12:54:25,478 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-40] is undefined
+ 09/06/23 12:54:25,482 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named assign-on-move.js
+ 09/06/23 12:54:25,483 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named fix-parent-on-subtasks-resolve.js
+ 09/06/23 12:54:25,486 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named open-parent-on-subtask-open.js
+ 09/06/23 12:54:25,491 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-scrum-2
+ 09/06/23 12:54:25,493 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-41] is undefined
+ 09/06/23 12:54:25,496 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named assert-fix-versions.js
+ 09/06/23 12:54:25,498 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-set-fix-versions
+ 09/06/23 12:54:25,499 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-42] is undefined
+ 09/06/23 12:54:25,502 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named send-to-slack.js
+ 09/06/23 12:54:25,507 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-slack-notifications-simple
+ 09/06/23 12:54:25,508 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-43] is undefined
+ 09/06/23 12:54:25,511 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named close-spam-ticket.js
+ 09/06/23 12:54:25,512 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named delete-spam-after-month.js
+ 09/06/23 12:54:25,515 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-spam
+ 09/06/23 12:54:25,516 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-44] is undefined
+ 09/06/23 12:54:25,520 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named start-timer.js
+ 09/06/23 12:54:25,522 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named stop-timer.js
+ 09/06/23 12:54:25,525 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-standalone-work-timer
+ 09/06/23 12:54:25,526 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-45] is undefined
+ 09/06/23 12:54:25,529 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named set-assignee.js
+ 09/06/23 12:54:25,532 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-subsystem-assignee
+ 09/06/23 12:54:25,533 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-46] is undefined
+ 09/06/23 12:54:25,535 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named inherit-assignee.js
+ 09/06/23 12:54:25,537 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named update-assignee.js
+ 09/06/23 12:54:25,541 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-subtask-inherit-assignee
+ 09/06/23 12:54:25,542 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-47] is undefined
+ 09/06/23 12:54:25,545 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named copy-values.js
+ 09/06/23 12:54:25,546 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named inherit-fix-versions.js
+ 09/06/23 12:54:25,548 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named update-fix-versions.js
+ 09/06/23 12:54:25,550 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-subtask-inherit-fix-versions
+ 09/06/23 12:54:25,552 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-48] is undefined
+ 09/06/23 12:54:25,555 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named inherit-subsystem.js
+ 09/06/23 12:54:25,557 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named update-subsystem.js
+ 09/06/23 12:54:25,561 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-subtask-inherit-subsystem
+ 09/06/23 12:54:25,562 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-49] is undefined
+ 09/06/23 12:54:25,564 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named fix-parent-on-subtasks-resolve.js
+ 09/06/23 12:54:25,565 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named open-parent-on-subtask-open.js
+ 09/06/23 12:54:25,568 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-subtasks
+ 09/06/23 12:54:25,569 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-50] is undefined
+ 09/06/23 12:54:25,572 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named task-assignee.js
+ 09/06/23 12:54:25,574 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-task-assignee
+ 09/06/23 12:54:25,576 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-51] is undefined
+ 09/06/23 12:54:25,580 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named time-management.js
+ 09/06/23 12:54:25,584 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-time-management
+ 09/06/23 12:54:25,585 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-52] is undefined
+ 09/06/23 12:54:25,587 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named untag-on-reopen.js
+ 09/06/23 12:54:25,589 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-untag-on-reopen
+ 09/06/23 12:54:25,590 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-53] is undefined
+ 09/06/23 12:54:25,593 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named clear-on-unresolve.js
+ 09/06/23 12:54:25,594 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named copy-from-duplicated-issue.js
+ 09/06/23 12:54:25,595 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named set-to-duplicate.js
+ 09/06/23 12:54:25,598 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-update-fix-build
+ 09/06/23 12:54:25,599 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-54] is undefined
+ 09/06/23 12:54:25,601 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named add-project-leader.js
+ 09/06/23 12:54:25,605 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-watcher-by-votes
+ 09/06/23 12:54:25,645 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-55] is undefined
+ 09/06/23 12:54:25,646 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named set-build-to-never.js
+ 09/06/23 12:54:25,649 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-wont-fix-build
+ 09/06/23 12:54:25,650 WARN  [@init servlet   ] [XdPlugin                      ] [@] Log message invocation failed: kotlinx.dnq.RequiredPropertyUndefinedException: Required field name of Workflow[120-56] is undefined
+ 09/06/23 12:54:25,652 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named start-timer.js
+ 09/06/23 12:54:25,653 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Created new entry named stop-timer.js
+ 09/06/23 12:54:25,657 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-work-timer
+ 09/06/23 12:54:25,722 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for AbstractIssueLinkPrototype, root ancestor AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,723 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link AbstractIssueLinkPrototype <-> PluggedData
+ 09/06/23 12:54:25,725 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,727 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,727 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for AbstractVcsItem, root ancestor AbstractVcsItem
+ 09/06/23 12:54:25,727 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link AbstractVcsItem <-> PluggedData
+ 09/06/23 12:54:25,727 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Agile, root ancestor Agile
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Agile <-> PluggedData
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Agile
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Agile
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Article, root ancestor BaseArticle
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link BaseArticle <-> PluggedData
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ArticleAttachment, root ancestor PersistentFile
+ 09/06/23 12:54:25,728 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PersistentFile <-> PluggedData
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ArticleComment, root ancestor Comment
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Comment <-> PluggedData
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ArticleDraft, root ancestor BaseArticle
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,729 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ArticleDraftAttachment, root ancestor PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for AttachmentThumbnail, root ancestor PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseArticle, root ancestor BaseArticle
+ 09/06/23 12:54:25,730 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseArticle
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseArticleAttachment, root ancestor PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseArticleComment, root ancestor Comment
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseAttachment, root ancestor PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseComment, root ancestor Comment
+ 09/06/23 12:54:25,731 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BaseWorkItem, root ancestor BaseWorkItem
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link BaseWorkItem <-> PluggedData
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BitBucketChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link ChangesProcessor <-> PluggedData
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BitBucketIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link User <-> PluggedData
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BitBucketServer, root ancestor VcsServer
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link VcsServer <-> PluggedData
+ 09/06/23 12:54:25,732 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BitBucketStandaloneServer, root ancestor VcsServer
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BitbucketStandaloneChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Build, root ancestor Field
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Field <-> PluggedData
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BuildsBundle, root ancestor Bundle
+ 09/06/23 12:54:25,733 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Bundle <-> PluggedData
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Bundle, root ancestor Bundle
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for BundleProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link ProjectCustomField <-> PluggedData
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Calendar, root ancestor Calendar
+ 09/06/23 12:54:25,734 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Calendar <-> PluggedData
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Calendar24x7, root ancestor Calendar
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,735 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for CustomFieldPrototype, root ancestor AbstractCustomFieldPrototype
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link AbstractCustomFieldPrototype <-> PluggedData
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractCustomFieldPrototype
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractCustomFieldPrototype
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for CustomFieldsUser, root ancestor User
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for CustomProfileAttribute, root ancestor CustomProfileAttribute
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link CustomProfileAttribute <-> PluggedData
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> CustomProfileAttribute
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> CustomProfileAttribute
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for DatabaseBackupError, root ancestor PersistentFile
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,736 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for DeletedUser, root ancestor User
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for DraftArticleComment, root ancestor Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for DraftComment, root ancestor Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for DraftWorkItem, root ancestor BaseWorkItem
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for EnumField, root ancestor Field
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for EnumFieldsBundle, root ancestor Bundle
+ 09/06/23 12:54:25,737 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ExternalReference, root ancestor ExternalReference
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link ExternalReference <-> PluggedData
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ExternalReference
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ExternalReference
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ExternalServiceUser, root ancestor User
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Field, root ancestor Field
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for FieldBundle, root ancestor Bundle
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Gantt, root ancestor Gantt
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Gantt <-> PluggedData
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Gantt
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Gantt
+ 09/06/23 12:54:25,738 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GitHostingIntegration, root ancestor User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GitHubIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GitLabChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GitLabIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GitLabServer, root ancestor VcsServer
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GiteaChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,739 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GiteaIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GiteaServer, root ancestor VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GithubCloneChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GithubCloneServer, root ancestor VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,740 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GithubRepo, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GithubServer, root ancestor VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GogsChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GogsIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GogsServer, root ancestor VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for GroupProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,741 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,743 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,743 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ImportUser, root ancestor User
+ 09/06/23 12:54:25,743 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ImportedPersistentEvent, root ancestor AbstractPersistentEvent
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link AbstractPersistentEvent <-> PluggedData
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractPersistentEvent
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractPersistentEvent
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ImportedUserData, root ancestor UserData
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link UserData <-> PluggedData
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> UserData
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> UserData
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Issue, root ancestor Issue
+ 09/06/23 12:54:25,744 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Issue <-> PluggedData
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Issue
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Issue
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for IssueAttachment, root ancestor PersistentFile
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for IssueComment, root ancestor Comment
+ 09/06/23 12:54:25,745 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Comment
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Comment
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for IssueFolder, root ancestor IssueFolder
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link IssueFolder <-> PluggedData
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for IssueLinkPrototype, root ancestor AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for IssueWorkItem, root ancestor BaseWorkItem
+ 09/06/23 12:54:25,746 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> BaseWorkItem
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for JenkinsChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for JenkinsServer, root ancestor VcsServer
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for JenkinsUser, root ancestor User
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,747 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for JiraImportedUserData, root ancestor UserData
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> UserData
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> UserData
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for LocalizableField, root ancestor Field
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for LocalizationControllerUser, root ancestor User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for LoginChangeHandlerUser, root ancestor User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,748 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for MailboxUser, root ancestor User
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Organization, root ancestor Organization
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Organization <-> PluggedData
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Organization
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Organization
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for OwnedField, root ancestor Field
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for OwnedFieldBundle, root ancestor Bundle
+ 09/06/23 12:54:25,749 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PeriodProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PersistentFile, root ancestor PersistentFile
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PersistentImageFile, root ancestor PersistentFile
+ 09/06/23 12:54:25,750 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PluggedAttributeDeclaration, root ancestor PluggedAttributeDeclaration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedAttributeDeclaration <-> PluggedData
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PluggedAttributeDeclaration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PluggedAttributeDeclaration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PluginConfiguration, root ancestor PluginConfiguration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluginConfiguration <-> PluggedData
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PluginConfiguration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PluginConfiguration
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Project, root ancestor IssueFolder
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,751 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ProjectVersion, root ancestor Field
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for ProjectVersionsBundle, root ancestor Bundle
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,752 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PullRequest, root ancestor AbstractVcsItem
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for PullRequestState, root ancestor XdEnumEntity
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link XdEnumEntity <-> PluggedData
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> XdEnumEntity
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> XdEnumEntity
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for RemovedIssueLinkPrototype, root ancestor AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractIssueLinkPrototype
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Role, root ancestor Role
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Role <-> PluggedData
+ 09/06/23 12:54:25,753 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Role
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Role
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SavedQuery, root ancestor IssueFolder
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SearchUser, root ancestor User
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SimpleCalendar, root ancestor Calendar
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Calendar
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SimpleProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,754 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SingletonExternalServiceUser, root ancestor User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SpaceChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SpaceIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SpaceServer, root ancestor VcsServer
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Sprint, root ancestor Sprint
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link Sprint <-> PluggedData
+ 09/06/23 12:54:25,755 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Sprint
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Sprint
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for State, root ancestor Field
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Field
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Field
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for StatesBundle, root ancestor Bundle
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SuperUser, root ancestor User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for SystemUser, root ancestor User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for Tag, root ancestor IssueFolder
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for TeamcityBuildConfMapping, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,756 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for TeamcityServer, root ancestor VcsServer
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for TeamcityUser, root ancestor User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for TextProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for TimeTrackingSettings, root ancestor TimeTrackingSettings
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link TimeTrackingSettings <-> PluggedData
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> TimeTrackingSettings
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> TimeTrackingSettings
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UndefinedUser, root ancestor User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UpsourceChangesProcessor, root ancestor ChangesProcessor
+ 09/06/23 12:54:25,757 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ChangesProcessor
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UpsourceIntegrationUser, root ancestor User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UpsourceServer, root ancestor VcsServer
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for User, root ancestor User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UserGroup, root ancestor UserGroup
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link UserGroup <-> PluggedData
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> UserGroup
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> UserGroup
+ 09/06/23 12:54:25,758 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UserProjectCustomField, root ancestor ProjectCustomField
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> ProjectCustomField
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UserRole, root ancestor UserRole
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link UserRole <-> PluggedData
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> UserRole
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> UserRole
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for UsersBundle, root ancestor Bundle
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> Bundle
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for VcsChange, root ancestor AbstractVcsItem
+ 09/06/23 12:54:25,759 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> AbstractVcsItem
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for VcsServer, root ancestor VcsServer
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> VcsServer
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WatchFolder, root ancestor IssueFolder
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> IssueFolder
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WidgetResource, root ancestor PersistentFile
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> PersistentFile
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WorkItemAttributeValue, root ancestor WorkItemAttributeValue
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link WorkItemAttributeValue <-> PluggedData
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> WorkItemAttributeValue
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> WorkItemAttributeValue
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WorkItemProjectAttribute, root ancestor WorkItemProjectAttribute
+ 09/06/23 12:54:25,760 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link WorkItemProjectAttribute <-> PluggedData
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> WorkItemProjectAttribute
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> WorkItemProjectAttribute
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WorkItemType, root ancestor WorkItemType
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link WorkItemType <-> PluggedData
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> WorkItemType
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> WorkItemType
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for WorkflowUser, root ancestor User
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> User
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> User
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registering links for XdSlaPausedInterval, root ancestor XdSlaPausedInterval
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link XdSlaPausedInterval <-> PluggedData
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedSingleReferenceAttribute -> XdSlaPausedInterval
+ 09/06/23 12:54:25,761 DEBUG [@init servlet   ] [PluginDataModelRegistrar      ] [@] Registered link PluggedMultiReferenceAttribute -> XdSlaPausedInterval
+ 09/06/23 12:54:30,626 DEBUG [@init servlet   ] [XdPlugin                      ] [@] Trying to read package @jetbrains/youtrack-workflow-auto-raise-priority.zip manifest. Will look for the following files: manifest.json (case-sensitive), package.json (case-sensitive), manifest.json (case-insensitive), package.json (case-insensitive)
+ 09/06/23 12:54:30,627 INFO  [@init servlet   ] [XdPlugin                      ] [@] Reading @jetbrains/youtrack-workflow-auto-raise-priority.zip package manifest from file manifest.json
+ 09/06/23 12:54:30,676 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named from-normal-to-major-in-7-days.js
+ 09/06/23 12:54:30,677 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named from-major-to-critical-in-10-days.js
+ 09/06/23 12:54:30,678 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named from-critical-to-show-stopper-in-12-days.js
+ 09/06/23 12:54:30,692 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-auto-raise-priority
+ 09/06/23 12:54:30,696 DEBUG [@init servlet   ] [XdPlugin                      ] [@] Trying to read package @jetbrains/youtrack-workflow-clear-fix-versions.zip manifest. Will look for the following files: manifest.json (case-sensitive), package.json (case-sensitive), manifest.json (case-insensitive), package.json (case-insensitive)
+ 09/06/23 12:54:30,696 INFO  [@init servlet   ] [XdPlugin                      ] [@] Reading @jetbrains/youtrack-workflow-clear-fix-versions.zip package manifest from file manifest.json
+ 09/06/23 12:54:30,733 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named clear-fix-versions.js
+ 09/06/23 12:54:30,735 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-clear-fix-versions
+ 09/06/23 12:54:30,738 DEBUG [@init servlet   ] [XdPlugin                      ] [@] Trying to read package @jetbrains/youtrack-workflow-comments.zip manifest. Will look for the following files: manifest.json (case-sensitive), package.json (case-sensitive), manifest.json (case-insensitive), package.json (case-insensitive)
+ 09/06/23 12:54:30,738 INFO  [@init servlet   ] [XdPlugin                      ] [@] Reading @jetbrains/youtrack-workflow-comments.zip package manifest from file manifest.json
+ 09/06/23 12:54:30,762 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named no-comments-for-verified.js
+ 09/06/23 12:54:30,763 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-comments
+ 09/06/23 12:54:30,765 DEBUG [@init servlet   ] [XdPlugin                      ] [@] Trying to read package @jetbrains/youtrack-workflow-issue-properties-combinations.zip manifest. Will look for the following files: manifest.json (case-sensitive), package.json (case-sensitive), manifest.json (case-insensitive), package.json (case-insensitive)
+ 09/06/23 12:54:30,765 INFO  [@init servlet   ] [XdPlugin                      ] [@] Reading @jetbrains/youtrack-workflow-issue-properties-combinations.zip package manifest from file manifest.json
+ 09/06/23 12:54:30,794 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named denied-combinations.js
+ 09/06/23 12:54:30,795 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-issue-properties-combinations
+ 09/06/23 12:54:30,798 DEBUG [@init servlet   ] [XdPlugin                      ] [@] Trying to read package @jetbrains/youtrack-workflow-wont-fix-build.zip manifest. Will look for the following files: manifest.json (case-sensitive), package.json (case-sensitive), manifest.json (case-insensitive), package.json (case-insensitive)
+ 09/06/23 12:54:30,798 INFO  [@init servlet   ] [XdPlugin                      ] [@] Reading @jetbrains/youtrack-workflow-wont-fix-build.zip package manifest from file manifest.json
+ 09/06/23 12:54:30,822 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Body not modified for  entry named set-build-to-never.js
+ 09/06/23 12:54:30,824 INFO  [@init servlet   ] [ScriptsLoader                 ] [@] Package processed: @jetbrains/youtrack-workflow-wont-fix-build
+ 09/06/23 12:54:32,204 DEBUG [@init servlet   ] [ScriptsDebuggerProvider       ] [admin@] Debugger instrument is created
+ 09/06/23 12:54:32,204 DEBUG [@init servlet   ] [DebuggerServer                ] [admin@] New debug environment is assigned
+ 09/06/23 12:54:32,204 DEBUG [@init servlet   ] [DebuggerInstrument            ] [admin@] Debugger instrument is created
+ 

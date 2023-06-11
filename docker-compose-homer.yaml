@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  homer:
+    image: b4bz/homer:latest
+    #To build from source, comment previous line and uncomment below
+    #build: .
+    container_name: homer
+    volumes:
+      - ./assets/:/www/assets
+    restart: always
+    ports:
+      - 8080:8080
+    user: 1000:1000 # default
+    environment:
+      - INIT_ASSETS=1 # default

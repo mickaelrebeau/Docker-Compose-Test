@@ -1,0 +1,14 @@
+[2023-06-09 07:56:11,685] ================================================================ (start)
+[2023-06-09 07:58:23,561] ================================================================ (start)
+[2023-06-09 07:58:53,283] [YouTrack Error] [2023-06-09 07:58:53,281]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:58:53,294] [YouTrack Error] [2023-06-09 07:58:53,290]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:59:53,284] [YouTrack Error] [2023-06-09 07:59:53,276]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:59:53,285] [YouTrack Error] [2023-06-09 07:59:53,282]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:24,598] [YouTrack Error] [2023-06-09 08:00:24,588]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:25,949] [YouTrack Error] [2023-06-09 08:00:25,945]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:28,162] [YouTrack Error] [2023-06-09 08:00:28,157]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 12:53:40,467] ================================================================ (start)
+[2023-06-11 15:04:42,698] ================================================================ (start)
+[2023-06-11 15:04:50,224] [YouTrack Error] [2023-06-11 15:04:50,218]  ERROR -                 bundle.startup - Error while starting JetBrains YouTrack 2023.1: Error saving properties file /opt/youtrack/data/internal/services/adminService/awcToken.properties: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied) 
+[2023-06-11 15:04:50,306] [YouTrack Error] [2023-06-11 15:04:50,298]   WARN - y.util.thread.QueuedThreadPool - Stopped without executing or closing null 
+[2023-06-11 15:04:50,349] ================================================================ (finish)

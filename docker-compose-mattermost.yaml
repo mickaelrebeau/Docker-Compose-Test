@@ -1,0 +1,99 @@
+# version: '3.3'
+
+# services:
+#   mattermost-postgres:
+#     container_name: mattermost-postgres
+#     image: postgres:13.2-alpine
+#     environment:
+#       POSTGRES_USER: ${POSTGRES_USER}
+#       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+#       POSTGRES_DB: ${POSTGRES_DB}
+#       PGDATA: /mattermost/postgres
+#     volumes:
+#        - postgres:/mattermost/postgres
+#     networks:
+#       - mattermost
+#     restart: unless-stopped
+
+#   mattermost-server:
+#     container_name: mattermost-server
+#     build:
+#       context: ./
+#     image: mattermost-server:latest
+#     environment:
+#       POSTGRES_USER: ${POSTGRES_USER}
+#       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+#     volumes:
+#       - data:/opt/mattermost/data
+#     networks:
+#       - mattermost
+#     ports:
+#       - "127.0.0.1:8066:8065"
+#     restart: unless-stopped
+#     depends_on:
+#       - mattermost-postgres
+#     ulimits:
+#       nofile: 49152
+
+# networks:
+#   mattermost:
+
+# volumes:
+#   postgres:
+#     driver: local
+#     driver_opts:
+#       o: bind
+#       type: none
+#       device: /mattermost/postgres
+#   data:
+#     driver: local
+#     driver_opts:
+#       o: bind
+#       type: none
+#       device: /mattermost/data
+
+version: "3.3"
+
+services:
+  postgres:
+    image: postgres:13.2-alpine
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 100
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/run/postgresql
+    volumes:
+      - ./volumes/db/var/lib/postgresql/data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+
+  mattermost:
+    depends_on:
+      - postgres
+    image: mattermost/mattermost-team-edition:7.10.3-rc1
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+    pids_limit: 200
+    read_only: false
+    tmpfs:
+      - /tmp
+    volumes:
+      - ${MATTERMOST_CONFIG_PATH}:/mattermost/config:rw
+      - ${MATTERMOST_DATA_PATH}:/mattermost/data:rw
+      - ${MATTERMOST_LOGS_PATH}:/mattermost/logs:rw
+      - ${MATTERMOST_PLUGINS_PATH}:/mattermost/plugins:rw
+      - ${MATTERMOST_CLIENT_PLUGINS_PATH}:/mattermost/client/plugins:rw
+      - ${MATTERMOST_BLEVE_INDEXES_PATH}:/mattermost/bleve-indexes:rw
+    environment:
+      TZ: UTC
+      MM_SQLSETTINGS_DRIVERNAME: postgres
+      MM_SQLSETTINGS_DATASOURCE: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}?sslmode=disable&connect_timeout=10
+      MM_BLEVESETTINGS_INDEXDIR: /mattermost/bleve-indexes
+    ports:
+      - 5200:8065

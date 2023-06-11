@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  mongo:
+    image: mongo
+    volumes:
+    - "mongo-db:/data/db"
+  wiki:
+    image: linuxserver/wikijs:latest
+    volumes:
+    - "./wiki/repo:/var/wiki/repo:rw,z"
+    environment:
+    - WIKI_HOST=https://127.0.0.1:443
+    - WIKI_ADMIN_EMAIL=admin@example.com
+    ports:
+    - 8000:3000
+    depends_on:
+      - "mongo"
+  nginx:
+    image: nginx:latest
+    depends_on:
+      - "wiki"
+volumes:
+  mongo-db:

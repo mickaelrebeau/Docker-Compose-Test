@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+  nginx:
+    image: registry.alt-tools.tech/devops/dockerfile/nginx:default
+    ports:
+     - ${WEB_PORT}:80
+    volumes:
+     - ./:/var/www:ro
+  php:
+    image: registry.alt-tools.tech/devops/dockerfile/php8-fpm:8.2.6
+    volumes:
+     - ./:/var/www
+  mysql:
+    image: mariadb:latest
+    environment:
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_PASSWORD: pass
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_USER: user
+    volumes:
+     -  mysql-volume:/var/lib/mysql  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+    ports:
+     - ${PMA_PORT}:80
+
+volumes:
+  mysql-volume:
+    external: false
+    name: ${MYSQL_VOLUME_NAME}

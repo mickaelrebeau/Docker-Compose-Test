@@ -1,0 +1,76 @@
+[2023-06-09 07:56:11,461]  TRACE -                                - ================================================================ (start)
+[2023-06-09 07:56:11,513]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 139
+[2023-06-09 07:56:11,516]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <YouTrack Home>/internal/java/linux-x64 (version "17.0.6", build "17.0.6+10-LTS")
+[2023-06-09 07:56:11,518]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2023-06-09 07:56:11,519]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2023-06-09 07:56:11,520]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2023-06-09 07:56:11,523]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.206
+[2023-06-09 07:56:11,524]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider, mac-daemon-commands]
+[2023-06-09 07:56:11,526]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2023-06-09 07:56:11,530]  DEBUG - .BaseLauncherConfig.BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2023-06-09 07:56:11,624]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2023-06-09 07:56:11,640]  DEBUG - ains.launcher.run.AgentProcess - Fri Jun 09 07:56:11 UTC 2023 ==> Start launch
+[2023-06-09 07:56:11,644]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2023-06-09 07:56:11,645]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2023-06-09 07:56:11,647]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2023-06-09 07:56:11,651]  DEBUG - tbrains.launcher.run.JavaAgent - Reusing launcher Java for YouTrack
+[2023-06-09 07:56:11,667]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/opt/youtrack/internal/java/linux-x64/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -da, -XX:MaxMetaspaceSize=500m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.hub.admin.skip=true, -Djetbrains.youtrack.singleTierApp=true, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, -Dlauncher.app.extra.lib.dirs=/alpn/1.9/, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2023-06-09 07:58:23,361]  TRACE -                                - ================================================================ (start)
+[2023-06-09 07:58:23,404]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 139
+[2023-06-09 07:58:23,406]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <YouTrack Home>/internal/java/linux-x64 (version "17.0.6", build "17.0.6+10-LTS")
+[2023-06-09 07:58:23,406]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2023-06-09 07:58:23,407]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2023-06-09 07:58:23,407]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2023-06-09 07:58:23,408]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.206
+[2023-06-09 07:58:23,409]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider, mac-daemon-commands]
+[2023-06-09 07:58:23,409]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2023-06-09 07:58:23,411]  DEBUG - .BaseLauncherConfig.BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2023-06-09 07:58:23,476]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2023-06-09 07:58:23,501]  DEBUG - ains.launcher.run.AgentProcess - Fri Jun 09 07:58:23 UTC 2023 ==> Start launch
+[2023-06-09 07:58:23,504]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2023-06-09 07:58:23,515]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2023-06-09 07:58:23,522]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2023-06-09 07:58:23,527]  DEBUG - tbrains.launcher.run.JavaAgent - Reusing launcher Java for YouTrack
+[2023-06-09 07:58:23,542]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/opt/youtrack/internal/java/linux-x64/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -da, -XX:MaxMetaspaceSize=500m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.hub.admin.skip=true, -Djetbrains.youtrack.singleTierApp=true, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, -Dlauncher.app.extra.lib.dirs=/alpn/1.9/, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2023-06-09 12:53:40,291]  TRACE -                                - ================================================================ (start)
+[2023-06-09 12:53:40,323]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 139
+[2023-06-09 12:53:40,325]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <YouTrack Home>/internal/java/linux-x64 (version "17.0.6", build "17.0.6+10-LTS")
+[2023-06-09 12:53:40,326]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2023-06-09 12:53:40,326]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2023-06-09 12:53:40,327]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2023-06-09 12:53:40,328]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.206
+[2023-06-09 12:53:40,328]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider, mac-daemon-commands]
+[2023-06-09 12:53:40,328]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2023-06-09 12:53:40,329]  DEBUG - .BaseLauncherConfig.BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2023-06-09 12:53:40,405]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2023-06-09 12:53:40,425]  DEBUG - ains.launcher.run.AgentProcess - Fri Jun 09 12:53:40 UTC 2023 ==> Start launch
+[2023-06-09 12:53:40,429]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2023-06-09 12:53:40,436]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2023-06-09 12:53:40,439]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2023-06-09 12:53:40,442]  DEBUG - tbrains.launcher.run.JavaAgent - Reusing launcher Java for YouTrack
+[2023-06-09 12:53:40,452]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/opt/youtrack/internal/java/linux-x64/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -da, -XX:MaxMetaspaceSize=500m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.hub.admin.skip=true, -Djetbrains.youtrack.singleTierApp=true, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, -Dlauncher.app.extra.lib.dirs=/alpn/1.9/, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2023-06-11 15:04:42,415]  TRACE -                                - ================================================================ (start)
+[2023-06-11 15:04:42,464]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 139
+[2023-06-11 15:04:42,466]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher Java: <YouTrack Home>/internal/java/linux-x64 (version "17.0.6", build "17.0.6+10-LTS")
+[2023-06-11 15:04:42,467]  DEBUG - rains.launcher.ep.commands.Run - YouTrack home directory: /opt/youtrack
+[2023-06-11 15:04:42,467]  DEBUG - rains.launcher.ep.commands.Run - Command line: [run]
+[2023-06-11 15:04:42,468]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <YouTrack Home>/logs
+[2023-06-11 15:04:42,469]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 1.0.206
+[2023-06-11 15:04:42,470]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [win-service-commands, BundleJvmOptionsPlugin, ConfPathProvider, mac-daemon-commands]
+[2023-06-11 15:04:42,471]  DEBUG - rains.launcher.ep.commands.Run - YouTrack config folder: <YouTrack Home>/conf
+[2023-06-11 15:04:42,472]  DEBUG - .BaseLauncherConfig.BaseParser - Using launcher configuration file: jar:file:<YouTrack Home>/launcher/lib/youtrack-launcher.jar!/launcher.java.config
+[2023-06-11 15:04:42,601]   INFO - rains.launcher.ep.commands.Run - Starting YouTrack...
+[2023-06-11 15:04:42,632]  DEBUG - ains.launcher.run.AgentProcess - Sun Jun 11 15:04:42 UTC 2023 ==> Start launch
+[2023-06-11 15:04:42,635]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2023-06-11 15:04:42,644]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2023-06-11 15:04:42,650]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2023-06-11 15:04:42,655]  DEBUG - tbrains.launcher.run.JavaAgent - Reusing launcher Java for YouTrack
+[2023-06-11 15:04:42,673]  DEBUG - tbrains.launcher.run.JavaAgent - Launching YouTrack process with command: [/opt/youtrack/internal/java/linux-x64/bin/java, -Djl.service=YouTrack, -Djl.home=/opt/youtrack, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs/hs_err_pid%p.log, -Dfile.encoding=UTF-8, -da, -XX:MaxMetaspaceSize=500m, -Xmx1024m, -Dorg.eclipse.jetty.server.Request.maxFormContentSize=5000000, -Dorg.eclipse.jetty.server.Request.maxFormKeys=10000, -Djetbrains.http.request.header.buffer.size=102400, -Djetbrains.http.response.header.buffer.size=102400, -Djetbrains.hub.admin.skip=true, -Djetbrains.youtrack.singleTierApp=true, -Dlog4j2.contextSelector=org.apache.logging.log4j.core.selector.BasicContextSelector, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, -Dlauncher.app.extra.lib.dirs=/alpn/1.9/, -jar, launcher/lib/app-wrapper/youtrack-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "/opt/youtrack", system properties: {launcher.app.home=/opt/youtrack, launcher.app.conf.dir=/opt/youtrack/conf, java.awt.headless=true, launcher.app.name=YouTrack})
+[2023-06-11 15:04:50,332]   INFO - ains.launcher.run.AgentProcess - YouTrack process finished
+[2023-06-11 15:04:50,339]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.pid
+[2023-06-11 15:04:50,342]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.port
+[2023-06-11 15:04:50,347]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.exit.flag
+[2023-06-11 15:04:50,348]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <YouTrack Home>/logs/youtrack.start.flag
+[2023-06-11 15:04:50,350]  DEBUG - rains.launcher.run.AgentRunner - YouTrack has exited with code: 29 (EXIT)
+[2023-06-11 15:04:50,351]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
+[2023-06-11 15:04:50,362]  TRACE -                                - ================================================================ (finish)

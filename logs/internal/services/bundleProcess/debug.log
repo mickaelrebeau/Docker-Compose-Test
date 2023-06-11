@@ -1,0 +1,514 @@
+[2023-06-09 07:56:12,914]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:56:12,918]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:56:12,922]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-09 07:56:12,923]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-09 07:56:12,978]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-09 07:56:13,035]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:56:13,068]   INFO -                 bundle.startup - Configuring Service-Container[bundleProcess] 
+[2023-06-09 07:56:13,083]   INFO -                 bundle.startup - Configuring Bundle Backend Service 
+[2023-06-09 07:56:13,096]   INFO -                 bundle.startup - Configuring Configuration Wizard 
+[2023-06-09 07:56:13,137]   INFO -                 bundle.startup - Starting Service-Container[bundleProcess] 
+[2023-06-09 07:56:13,138]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleProcess] 
+[2023-06-09 07:56:13,157]  DEBUG - g.JavaUtilLoggingToSlf4jBridge - [class com.jetbrains.service.util.logging.SLF4JBridgePerContextClassLoaderHandler] has already bean installed 
+[2023-06-09 07:56:13,180]   INFO -     org.eclipse.jetty.util.log - Logging initialized @1506ms to org.eclipse.jetty.util.log.Slf4jLog 
+[2023-06-09 07:56:13,242]   INFO - rg.eclipse.jetty.server.Server - jetty-9.4.49.v20220914; built: 2022-09-14T01:07:36.601Z; git: 4231a3b2e4cb8548a412a789936d640a97b1aa0a; jvm 17.0.6+10-LTS 
+[2023-06-09 07:56:13,280]   INFO - .server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@68e5f4d{/bundle/starting,null,AVAILABLE} 
+[2023-06-09 07:56:13,282]   INFO - .server.handler.ContextHandler - Started c.j.b.p.j.@b5fba33{/,file:///opt/youtrack/internal/error_pages/,AVAILABLE} 
+[2023-06-09 07:56:13,295]   INFO - jetty.server.AbstractConnector - Started ServerConnector@54bfaab0{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+[2023-06-09 07:56:13,296]   INFO - rg.eclipse.jetty.server.Server - Started @1624ms 
+[2023-06-09 07:56:13,307]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleProcess] 
+[2023-06-09 07:56:13,307]   INFO -                 bundle.startup - Starting Bundle Backend Service 
+[2023-06-09 07:56:13,308]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleBackend] 
+[2023-06-09 07:56:13,705]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=228ms 
+[2023-06-09 07:56:13,835]   INFO - .ContextHandler.bundle_backend - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 07:56:13,838]  DEBUG - onfig.BundleBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 07:56:13,869]   INFO - g.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0 
+[2023-06-09 07:56:13,870]   INFO - g.eclipse.jetty.server.session - No SessionScavenger set, using defaults 
+[2023-06-09 07:56:13,872]   INFO - g.eclipse.jetty.server.session - node0 Scavenging every 600000ms 
+[2023-06-09 07:56:13,891]   INFO - .ContextHandler.bundle_backend - Initializing Spring DispatcherServlet 'BundleBackendServletDispatcher' 
+[2023-06-09 07:56:13,893]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'BundleBackendServletDispatcher' 
+[2023-06-09 07:56:15,074]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 1178 ms 
+[2023-06-09 07:56:15,075]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@34e39f2a{/bundle/backend,file:///opt/youtrack/internal/bundle_common/,AVAILABLE} 
+[2023-06-09 07:56:15,086]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleBackend] 
+[2023-06-09 07:56:15,087]   INFO -                 bundle.startup - Starting Configuration Wizard 
+[2023-06-09 07:56:15,088]   INFO -                 bundle.startup - JetBrains YouTrack 2023.1 Configuration Wizard will listen inside container on {0.0.0.0:8080}/ after start and can be accessed by URL [http://<put-your-docker-HOST-name-here>:<put-host-port-mapped-to-container-port-8080-here>//?wizard_token=ZCy2284FNCcnTAczt8mq] 
+[2023-06-09 07:56:15,089]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [configurationWizard] 
+[2023-06-09 07:56:16,245]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=1022ms 
+[2023-06-09 07:56:16,277]   INFO - er.handler.ContextHandler.ROOT - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 07:56:16,281]  DEBUG - allerWebApplicationInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 07:56:16,294]   INFO - er.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'InstallerServletDispatcher' 
+[2023-06-09 07:56:16,295]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'InstallerServletDispatcher' 
+[2023-06-09 07:56:17,390]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 1093 ms 
+[2023-06-09 07:56:17,390]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@191f6726{/,file:///opt/youtrack/internal/wizard_web/,AVAILABLE} 
+[2023-06-09 07:56:17,404]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [configurationWizard] 
+[2023-06-09 07:56:17,410]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [uname, -a] in directory [/opt/youtrack] 
+[2023-06-09 07:56:17,831]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[uname, -a]] exited with code 0 and output: [Linux 6365cbed0232 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 x86_64 GNU/Linux] 
+[2023-06-09 07:56:17,831]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [free] in directory [/opt/youtrack] 
+[2023-06-09 07:56:17,833]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [df] in directory [/opt/youtrack] 
+[2023-06-09 07:56:18,241]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[df]] exited with code 0 and output: [Filesystem     1K-blocks      Used Available Use% Mounted on
+overlay        263174212   5995868 243740188   3% /
+tmpfs              65536         0     65536   0% /dev
+tmpfs            3515476         0   3515476   0% /sys/fs/cgroup
+shm                65536         0     65536   0% /dev/shm
+/dev/sdd       263174212   5995868 243740188   3% /etc/hosts
+drvfs          498799612 453861884  44937728  91% /opt/youtrack/logs
+tmpfs            3515476         0   3515476   0% /proc/acpi
+tmpfs            3515476         0   3515476   0% /sys/firmware] 
+[2023-06-09 07:56:18,242]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [/bin/sh, -c, ulimit -a] in directory [/opt/youtrack] 
+[2023-06-09 07:56:18,651]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[/bin/sh, -c, ulimit -a]] exited with code 0 and output: [time(seconds)        unlimited
+file(blocks)         unlimited
+data(kbytes)         unlimited
+stack(kbytes)        8192
+coredump(blocks)     0
+memory(kbytes)       unlimited
+locked memory(kbytes) 82000
+process              unlimited
+nofiles              1048576
+vmemory(kbytes)      unlimited
+locks                unlimited
+rtprio               0] 
+[2023-06-09 07:56:18,652]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname] in directory [/opt/youtrack] 
+[2023-06-09 07:56:19,060]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname]] exited with code 0 and output: [6365cbed0232] 
+[2023-06-09 07:56:19,061]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname, -f] in directory [/opt/youtrack] 
+[2023-06-09 07:56:19,470]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname, -f]] exited with code 0 and output: [6365cbed0232] 
+[2023-06-09 07:56:19,471]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [id, -a] in directory [/opt/youtrack] 
+[2023-06-09 07:56:19,879]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[id, -a]] exited with code 0 and output: [uid=13001(jetbrains) gid=13001(jetbrains) groups=13001(jetbrains)] 
+[2023-06-09 07:58:24,638]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:58:24,641]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:58:24,645]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-09 07:58:24,646]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-09 07:58:24,717]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-09 07:58:24,769]  DEBUG - ard.WizardConfiguredProperties - Wizard has not been run yet. The file [/opt/youtrack/conf/internal/wizard-configured.properties] does not exist 
+[2023-06-09 07:58:24,796]   INFO -                 bundle.startup - Configuring Service-Container[bundleProcess] 
+[2023-06-09 07:58:24,805]   INFO -                 bundle.startup - Configuring Bundle Backend Service 
+[2023-06-09 07:58:24,815]   INFO -                 bundle.startup - Configuring Configuration Wizard 
+[2023-06-09 07:58:24,844]   INFO -                 bundle.startup - Starting Service-Container[bundleProcess] 
+[2023-06-09 07:58:24,846]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleProcess] 
+[2023-06-09 07:58:24,855]  DEBUG - g.JavaUtilLoggingToSlf4jBridge - [class com.jetbrains.service.util.logging.SLF4JBridgePerContextClassLoaderHandler] has already bean installed 
+[2023-06-09 07:58:24,863]   INFO -     org.eclipse.jetty.util.log - Logging initialized @1312ms to org.eclipse.jetty.util.log.Slf4jLog 
+[2023-06-09 07:58:24,939]   INFO - rg.eclipse.jetty.server.Server - jetty-9.4.49.v20220914; built: 2022-09-14T01:07:36.601Z; git: 4231a3b2e4cb8548a412a789936d640a97b1aa0a; jvm 17.0.6+10-LTS 
+[2023-06-09 07:58:24,975]   INFO - .server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@18937e14{/bundle/starting,null,AVAILABLE} 
+[2023-06-09 07:58:24,978]   INFO - .server.handler.ContextHandler - Started c.j.b.p.j.@7366e228{/,file:///opt/youtrack/internal/error_pages/,AVAILABLE} 
+[2023-06-09 07:58:24,989]   INFO - jetty.server.AbstractConnector - Started ServerConnector@70dfe15{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+[2023-06-09 07:58:24,990]   INFO - rg.eclipse.jetty.server.Server - Started @1440ms 
+[2023-06-09 07:58:24,998]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleProcess] 
+[2023-06-09 07:58:24,999]   INFO -                 bundle.startup - Starting Bundle Backend Service 
+[2023-06-09 07:58:24,999]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleBackend] 
+[2023-06-09 07:58:25,245]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=134ms 
+[2023-06-09 07:58:25,284]   INFO - .ContextHandler.bundle_backend - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 07:58:25,286]  DEBUG - onfig.BundleBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 07:58:25,363]   INFO - g.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0 
+[2023-06-09 07:58:25,365]   INFO - g.eclipse.jetty.server.session - No SessionScavenger set, using defaults 
+[2023-06-09 07:58:25,367]   INFO - g.eclipse.jetty.server.session - node0 Scavenging every 660000ms 
+[2023-06-09 07:58:25,387]   INFO - .ContextHandler.bundle_backend - Initializing Spring DispatcherServlet 'BundleBackendServletDispatcher' 
+[2023-06-09 07:58:25,388]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'BundleBackendServletDispatcher' 
+[2023-06-09 07:58:26,311]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 923 ms 
+[2023-06-09 07:58:26,312]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@5e0aee2{/bundle/backend,file:///opt/youtrack/internal/bundle_common/,AVAILABLE} 
+[2023-06-09 07:58:26,322]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleBackend] 
+[2023-06-09 07:58:26,323]   INFO -                 bundle.startup - Starting Configuration Wizard 
+[2023-06-09 07:58:26,324]   INFO -                 bundle.startup - JetBrains YouTrack 2023.1 Configuration Wizard will listen inside container on {0.0.0.0:8080}/ after start and can be accessed by URL [http://<put-your-docker-HOST-name-here>:<put-host-port-mapped-to-container-port-8080-here>//?wizard_token=PHj01g1iZ7a5Uv30wvhE] 
+[2023-06-09 07:58:26,324]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [configurationWizard] 
+[2023-06-09 07:58:27,215]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=796ms 
+[2023-06-09 07:58:27,241]   INFO - er.handler.ContextHandler.ROOT - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 07:58:27,244]  DEBUG - allerWebApplicationInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 07:58:27,257]   INFO - er.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'InstallerServletDispatcher' 
+[2023-06-09 07:58:27,257]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'InstallerServletDispatcher' 
+[2023-06-09 07:58:28,429]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 1171 ms 
+[2023-06-09 07:58:28,432]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@534a3838{/,file:///opt/youtrack/internal/wizard_web/,AVAILABLE} 
+[2023-06-09 07:58:28,447]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [configurationWizard] 
+[2023-06-09 07:58:28,455]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [uname, -a] in directory [/opt/youtrack] 
+[2023-06-09 07:58:28,883]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[uname, -a]] exited with code 0 and output: [Linux a0e765b2e0da 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 x86_64 GNU/Linux] 
+[2023-06-09 07:58:28,884]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [free] in directory [/opt/youtrack] 
+[2023-06-09 07:58:28,886]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [df] in directory [/opt/youtrack] 
+[2023-06-09 07:58:29,307]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[df]] exited with code 0 and output: [Filesystem     1K-blocks      Used Available Use% Mounted on
+overlay        263174212   5995860 243740196   3% /
+tmpfs              65536         0     65536   0% /dev
+tmpfs            3515476         0   3515476   0% /sys/fs/cgroup
+shm                65536         0     65536   0% /dev/shm
+/dev/sdd       263174212   5995860 243740196   3% /etc/hosts
+drvfs          498799612 453863472  44936140  91% /opt/youtrack/conf
+tmpfs            3515476         0   3515476   0% /proc/acpi
+tmpfs            3515476         0   3515476   0% /sys/firmware] 
+[2023-06-09 07:58:29,308]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [/bin/sh, -c, ulimit -a] in directory [/opt/youtrack] 
+[2023-06-09 07:58:29,717]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[/bin/sh, -c, ulimit -a]] exited with code 0 and output: [time(seconds)        unlimited
+file(blocks)         unlimited
+data(kbytes)         unlimited
+stack(kbytes)        8192
+coredump(blocks)     0
+memory(kbytes)       unlimited
+locked memory(kbytes) 82000
+process              unlimited
+nofiles              1048576
+vmemory(kbytes)      unlimited
+locks                unlimited
+rtprio               0] 
+[2023-06-09 07:58:29,718]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname] in directory [/opt/youtrack] 
+[2023-06-09 07:58:30,125]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname]] exited with code 0 and output: [a0e765b2e0da] 
+[2023-06-09 07:58:30,126]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname, -f] in directory [/opt/youtrack] 
+[2023-06-09 07:58:30,535]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname, -f]] exited with code 0 and output: [a0e765b2e0da] 
+[2023-06-09 07:58:30,535]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [id, -a] in directory [/opt/youtrack] 
+[2023-06-09 07:58:30,943]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[id, -a]] exited with code 0 and output: [uid=13001(jetbrains) gid=13001(jetbrains) groups=13001(jetbrains)] 
+[2023-06-09 07:58:53,281]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:58:53,290]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:59:03,715]  DEBUG - er.rest.TestConnectionResource - Status request is received from localhost:8080 
+[2023-06-09 07:59:53,276]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 07:59:53,282]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:24,588]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:25,945]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 08:00:28,157]   WARN - ework.web.servlet.PageNotFound - No mapping for GET /api/overview 
+[2023-06-09 12:53:41,677]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-09 12:53:41,678]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-09 12:53:41,765]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-09 12:53:41,774]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-09 12:53:41,775]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-09 12:53:41,776]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-09 12:53:41,801]  DEBUG - s.bundle.HubPropertiesProvider - Saving Hub Properties provider settings to /opt/youtrack/conf/internal/hub.properties 
+[2023-06-09 12:53:42,010]   INFO -  com.jetbrains.bundle.Services - Versions of services bundled into JetBrains YouTrack 2023.1: 
+[hub->2023.1.15868] 
+[youtrack->2023.1.10168] 
+[bundle-platform->1.5.750] 
+[2023-06-09 12:53:42,012]   INFO -                 bundle.startup - Configuring Service-Container[bundleProcess] 
+[2023-06-09 12:53:42,025]   INFO -                 bundle.startup - Configuring Bundle Backend Service 
+[2023-06-09 12:53:42,042]   INFO -                 bundle.startup - Configuring Starting Page Service 
+[2023-06-09 12:53:42,056]   INFO -                 bundle.startup - Configuring YouTrack Configurator 
+[2023-06-09 12:53:42,069]   INFO -                 bundle.startup - Configuring Hub 
+[2023-06-09 12:53:42,267]   INFO -                 bundle.startup - Configuring Bundle Hub Configurator 
+[2023-06-09 12:53:42,268]   INFO -                 bundle.startup - Configuring YouTrack 
+[2023-06-09 12:53:42,436]   INFO -                 bundle.startup - Starting Service-Container[bundleProcess] 
+[2023-06-09 12:53:42,437]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleProcess] 
+[2023-06-09 12:53:42,449]  DEBUG - g.JavaUtilLoggingToSlf4jBridge - [class com.jetbrains.service.util.logging.SLF4JBridgePerContextClassLoaderHandler] has already bean installed 
+[2023-06-09 12:53:42,456]   INFO -     org.eclipse.jetty.util.log - Logging initialized @1999ms to org.eclipse.jetty.util.log.Slf4jLog 
+[2023-06-09 12:53:42,525]   INFO - rg.eclipse.jetty.server.Server - jetty-9.4.49.v20220914; built: 2022-09-14T01:07:36.601Z; git: 4231a3b2e4cb8548a412a789936d640a97b1aa0a; jvm 17.0.6+10-LTS 
+[2023-06-09 12:53:42,557]   INFO - .server.handler.ContextHandler - Started c.j.b.p.j.@2de79ab{/,file:///opt/youtrack/internal/error_pages/,AVAILABLE} 
+[2023-06-09 12:53:42,571]   INFO - jetty.server.AbstractConnector - Started ServerConnector@6ab5b341{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+[2023-06-09 12:53:42,572]   INFO - rg.eclipse.jetty.server.Server - Started @2115ms 
+[2023-06-09 12:53:42,584]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleProcess] 
+[2023-06-09 12:53:42,584]   INFO -                 bundle.startup - Starting Bundle Backend Service 
+[2023-06-09 12:53:42,585]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleBackend] 
+[2023-06-09 12:53:42,868]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=155ms 
+[2023-06-09 12:53:42,929]   INFO - .ContextHandler.bundle_backend - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 12:53:42,930]  DEBUG - onfig.BundleBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 12:53:42,981]   INFO - g.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0 
+[2023-06-09 12:53:42,983]   INFO - g.eclipse.jetty.server.session - No SessionScavenger set, using defaults 
+[2023-06-09 12:53:42,985]   INFO - g.eclipse.jetty.server.session - node0 Scavenging every 660000ms 
+[2023-06-09 12:53:43,005]   INFO - .ContextHandler.bundle_backend - Initializing Spring DispatcherServlet 'BundleBackendServletDispatcher' 
+[2023-06-09 12:53:43,006]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'BundleBackendServletDispatcher' 
+[2023-06-09 12:53:43,910]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 904 ms 
+[2023-06-09 12:53:43,911]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@2a2da51d{/bundle/backend,file:///opt/youtrack/internal/bundle_common/,AVAILABLE} 
+[2023-06-09 12:53:43,923]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleBackend] 
+[2023-06-09 12:53:43,923]   INFO -                 bundle.startup - Starting Starting Page Service 
+[2023-06-09 12:53:43,924]   INFO -                 bundle.startup - JetBrains YouTrack 2023.1 will listen inside container on {0.0.0.0:8080}/bundle/starting after start and can be accessed by URL [http://<put-your-docker-HOST-name-here>:<put-host-port-mapped-to-container-port-8080-here>/bundle/starting] 
+[2023-06-09 12:53:43,925]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [startingPage] 
+[2023-06-09 12:53:44,056]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=75ms 
+[2023-06-09 12:53:44,078]   INFO - ContextHandler.bundle_starting - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 12:53:44,080]  DEBUG - StartingPageBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-09 12:53:44,091]   INFO - ContextHandler.bundle_starting - Initializing Spring DispatcherServlet 'StartingPageServletDispatcher' 
+[2023-06-09 12:53:44,092]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'StartingPageServletDispatcher' 
+[2023-06-09 12:53:44,473]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 381 ms 
+[2023-06-09 12:53:44,474]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@46737f02{/bundle/starting,file:///opt/youtrack/internal/starting_page/,AVAILABLE} 
+[2023-06-09 12:53:44,482]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [startingPage] 
+[2023-06-09 12:53:44,483]   INFO -                 bundle.startup - Starting YouTrack Configurator 
+[2023-06-09 12:53:44,484]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [adminService] 
+[2023-06-09 12:53:44,605]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=57ms 
+[2023-06-09 12:53:44,627]   INFO - er.ContextHandler.bundle_admin - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-09 12:53:44,639]   INFO - er.ContextHandler.bundle_admin - Initializing Spring root WebApplicationContext 
+[2023-06-09 12:53:44,640]   INFO - work.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+[2023-06-09 12:53:45,255]   INFO - work.web.context.ContextLoader - Root WebApplicationContext initialized in 614 ms 
+[2023-06-09 12:53:45,263]   INFO - er.ContextHandler.bundle_admin - Initializing Spring DispatcherServlet 'AdminConsoleServletDispatcher' 
+[2023-06-09 12:53:45,264]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'AdminConsoleServletDispatcher' 
+[2023-06-09 12:53:45,272]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+[2023-06-09 12:53:45,273]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@5cac623e{/bundle/admin,file:///opt/youtrack/internal/admin_console/,AVAILABLE} 
+[2023-06-09 12:53:45,284]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [adminService] 
+[2023-06-09 12:53:45,285]   INFO -                 bundle.startup - Starting Hub 
+[2023-06-09 12:53:45,285]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [hub] 
+[2023-06-09 12:53:57,241]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@337f4e01{/hub,file:///opt/youtrack/apps/hub/web/,AVAILABLE} 
+[2023-06-09 12:53:57,278]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [hub] 
+[2023-06-09 12:53:57,278]   INFO -                 bundle.startup - Starting Bundle Hub Configurator 
+[2023-06-09 12:53:57,279]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundle-hub-configurator] 
+[2023-06-09 12:53:57,289]  DEBUG - es.impl.HubConfiguratorService - No properties file is found at: /opt/youtrack/conf/internal/services/bundle-hub-configurator/hub-config.properties 
+[2023-06-09 12:53:57,290]  DEBUG - es.impl.HubConfiguratorService - No legacy properties file is found at: /opt/youtrack/data/hub/conf/hub-config.properties 
+[2023-06-09 12:53:57,853]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:57,943]  DEBUG - bundle.hub_client.util.HubUtil - Validation result: status=[SERVICE_NOT_REGISTERED], message=[Service is not registered in Hub: Service with id "d89f633b-a06d-4d7b-9fcc-16de769a318b" was not found], secretValid=[false], registered=[false], verified=[false] 
+com.intellij.hub.auth.oauth2.consumer.OAuth2TokenLoadException: Can't load token: invalid_client (Service with id "d89f633b-a06d-4d7b-9fcc-16de769a318b" was not found)
+	at jetbrains.jetpass.client.oauth2.SimpleTokenLoader.loadAccessToken(SimpleTokenLoader.kt:57) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getTokenData(OAuth2TokenFlow.kt:64) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getToken(OAuth2TokenFlow.kt:40) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getHeader(OAuth2TokenFlow.kt:85) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.accounts.BaseAccountsClient.checkServiceCredentials(BaseAccountsClient.kt:86) ~[hub-client-all-2018.1.8679.jar:?]
+	at com.jetbrains.bundle.hub_client.util.HubUtil.checkService(HubUtil.java:32) [hub-client-util-1.5.750.jar:?]
+	at com.jetbrains.bundle.hub_client.util.HubUtil.checkService(HubUtil.java:130) [hub-client-util-1.5.750.jar:?]
+	at com.jetbrains.bundle.hub_client.util.BundleHubClient.checkBundleService(BundleHubClient.java:179) [hub-client-util-1.5.750.jar:?]
+	at com.jetbrains.bundle.hub_client.util.BundleHubClient.getBundleHubAccountsClient(BundleHubClient.java:112) [hub-client-util-1.5.750.jar:?]
+	at com.jetbrains.bundle.util.hub.HubServiceUpdater.updateHubInfo(HubServiceUpdater.java:214) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.util.hub.HubServiceUpdater.update(HubServiceUpdater.java:55) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.HubConfiguratorService.configureHubServices(HubConfiguratorService.java:87) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.HubConfiguratorService.doStart(HubConfiguratorService.java:64) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.ServiceBase.start(ServiceBase.java:66) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startService(Services.java:648) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startAllServices(Services.java:575) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.start(Services.java:555) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:273) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:237) [bundle-1.5.750.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.jetbrains.bundle.bootstrap.Bundle$EntryPointProvider$1.invoke(Bundle.java:100) [bundle-bootstrap-1.5.750.jar:?]
+	at jdk.proxy4.$Proxy30.start(Unknown Source) [?:?]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:99) [youtrack-wrapper.jar:1.0.206]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:97) [youtrack-wrapper.jar:1.0.206]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[2023-06-09 12:53:57,947]  DEBUG - ub_client.util.BundleHubClient - Bundle hub service does not exist. Trying to create it... 
+[2023-06-09 12:53:58,280]  DEBUG - ub_client.util.BundleHubClient - Bundle hub service was created: serviceId = d89f633b-a06d-4d7b-9fcc-16de769a318b, isVerified = true 
+[2023-06-09 12:53:58,290]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:58,369]  DEBUG - bundle.hub_client.util.HubUtil - Validation result: status=[OK], message=[Service is registered and verified in Hub], secretValid=[true], registered=[true], verified=[true] 
+[2023-06-09 12:53:58,376]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:58,403]  DEBUG - dle.util.hub.HubServiceUpdater - Hub information for service hub (0-0-0-0-0) changed in new configuration. Update may be needed 
+[2023-06-09 12:53:58,428]  DEBUG - dle.util.hub.HubServiceUpdater - Hub information for service hub (0-0-0-0-0) was updated: jetbrains.jetpass.rest.dto.ServiceJSON@4a187a3c 
+[2023-06-09 12:53:58,439]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:58,446]  DEBUG - bundle.hub_client.util.HubUtil - Validation result: status=[SERVICE_NOT_REGISTERED], message=[Service is not registered in Hub: Service with id "62486447-3c0d-4800-b702-b32af8a58705" was not found], secretValid=[false], registered=[false], verified=[false] 
+com.intellij.hub.auth.oauth2.consumer.OAuth2TokenLoadException: Can't load token: invalid_client (Service with id "62486447-3c0d-4800-b702-b32af8a58705" was not found)
+	at jetbrains.jetpass.client.oauth2.SimpleTokenLoader.loadAccessToken(SimpleTokenLoader.kt:57) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getTokenData(OAuth2TokenFlow.kt:64) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getToken(OAuth2TokenFlow.kt:40) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.oauth2.token.OAuth2TokenFlow.getHeader(OAuth2TokenFlow.kt:85) ~[hub-client-all-2018.1.8679.jar:?]
+	at jetbrains.jetpass.client.accounts.BaseAccountsClient.checkServiceCredentials(BaseAccountsClient.kt:86) ~[hub-client-all-2018.1.8679.jar:?]
+	at com.jetbrains.bundle.hub_client.util.HubUtil.checkService(HubUtil.java:32) [hub-client-util-1.5.750.jar:?]
+	at com.jetbrains.bundle.util.hub.HubServiceUpdater.ensureCreatedAndVerified(HubServiceUpdater.java:100) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.util.hub.HubServiceUpdater.update(HubServiceUpdater.java:59) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.HubConfiguratorService.configureHubServices(HubConfiguratorService.java:87) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.HubConfiguratorService.doStart(HubConfiguratorService.java:64) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.ServiceBase.start(ServiceBase.java:66) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startService(Services.java:648) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startAllServices(Services.java:575) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.start(Services.java:555) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:273) [bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:237) [bundle-1.5.750.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.jetbrains.bundle.bootstrap.Bundle$EntryPointProvider$1.invoke(Bundle.java:100) [bundle-bootstrap-1.5.750.jar:?]
+	at jdk.proxy4.$Proxy30.start(Unknown Source) [?:?]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:99) [youtrack-wrapper.jar:1.0.206]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:97) [youtrack-wrapper.jar:1.0.206]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[2023-06-09 12:53:58,446]  DEBUG - dle.util.hub.HubServiceUpdater - Hub service for youtrack does not exist. Trying to create it... 
+[2023-06-09 12:53:58,478]  DEBUG - dle.util.hub.HubServiceUpdater - Hub service for youtrack was created: 62486447-3c0d-4800-b702-b32af8a58705 
+[2023-06-09 12:53:58,483]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:58,498]  DEBUG - bundle.hub_client.util.HubUtil - Validation result: status=[OK], message=[Service is registered and verified in Hub], secretValid=[true], registered=[true], verified=[true] 
+[2023-06-09 12:53:58,498]  DEBUG - dle.util.hub.HubServiceUpdater - Hub service for youtrack exists and verified: 62486447-3c0d-4800-b702-b32af8a58705 
+[2023-06-09 12:53:58,499]  DEBUG - dle.util.hub.HubServiceUpdater - Force Hub update is set to: false 
+[2023-06-09 12:53:58,499]  DEBUG - dle.util.hub.HubServiceUpdater - Check changes in Hub information for service youtrack 
+[2023-06-09 12:53:58,506]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname, -f] in directory [null] 
+[2023-06-09 12:53:58,928]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname, -f]] exited with code 0 and output: [9a767d804864] 
+[2023-06-09 12:53:58,929]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname, -s] in directory [null] 
+[2023-06-09 12:53:59,342]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname, -s]] exited with code 0 and output: [9a767d804864] 
+[2023-06-09 12:53:59,343]  DEBUG - brains.service.util.SystemUtil - Known Net Interfaces: [/127.0.0.1, /172.20.0.2] 
+[2023-06-09 12:53:59,347]  DEBUG - brains.service.util.SystemUtil - InetAddress.getAllByName returned [9a767d804864/172.20.0.2] for 9a767d804864 
+[2023-06-09 12:53:59,348]  DEBUG - brains.service.util.SystemUtil - InetAddress.getAllByName returned [9a767d804864/172.20.0.2] for 9a767d804864 
+[2023-06-09 12:53:59,349]  DEBUG - dle.util.hub.HubServiceUpdater - Hub information for service youtrack (62486447-3c0d-4800-b702-b32af8a58705) changed in new configuration. Update may be needed 
+[2023-06-09 12:53:59,351]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:59,392]  DEBUG - dle.util.hub.HubServiceUpdater - Hub information for service youtrack (62486447-3c0d-4800-b702-b32af8a58705) was updated: jetbrains.jetpass.rest.dto.ServiceJSON@3f367f14 
+[2023-06-09 12:53:59,493]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:59,507]  DEBUG - bundle.hub_client.util.HubUtil - Validation result: status=[OK], message=[Service is registered and verified in Hub], secretValid=[true], registered=[true], verified=[true] 
+[2023-06-09 12:53:59,511]  DEBUG - tpass.client.oauth2.OAuth2Flow - Request to: http://127.0.0.1:8080/hub/api/rest/oauth2/token
+Params: {
+	grant_type:[client_credentials]
+	scope:[0-0-0-0-0]} 
+[2023-06-09 12:53:59,564]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundle-hub-configurator] 
+[2023-06-09 12:53:59,565]   INFO -                 bundle.startup - Starting YouTrack 
+[2023-06-09 12:53:59,565]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [youtrack] 
+[2023-06-09 12:54:34,819]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@40d6c54c{YouTrack,/,file:///opt/youtrack/apps/youtrack/web/,AVAILABLE} 
+[2023-06-09 12:54:34,832]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [youtrack] 
+[2023-06-09 12:54:34,834]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [uname, -a] in directory [/opt/youtrack] 
+[2023-06-09 12:54:35,245]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[uname, -a]] exited with code 0 and output: [Linux 9a767d804864 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 x86_64 GNU/Linux] 
+[2023-06-09 12:54:35,245]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [free] in directory [/opt/youtrack] 
+[2023-06-09 12:54:35,249]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [df] in directory [/opt/youtrack] 
+[2023-06-09 12:54:35,657]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[df]] exited with code 0 and output: [Filesystem     1K-blocks      Used Available Use% Mounted on
+overlay        263174212  14208232 235527824   6% /
+tmpfs              65536         0     65536   0% /dev
+tmpfs            3515476         0   3515476   0% /sys/fs/cgroup
+shm                65536         0     65536   0% /dev/shm
+/dev/sdd       263174212  14208232 235527824   6% /etc/hosts
+drvfs          498799612 469992000  28807612  95% /opt/youtrack/data
+tmpfs            3515476         0   3515476   0% /proc/acpi
+tmpfs            3515476         0   3515476   0% /sys/firmware] 
+[2023-06-09 12:54:35,658]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [/bin/sh, -c, ulimit -a] in directory [/opt/youtrack] 
+[2023-06-09 12:54:36,066]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[/bin/sh, -c, ulimit -a]] exited with code 0 and output: [time(seconds)        unlimited
+file(blocks)         unlimited
+data(kbytes)         unlimited
+stack(kbytes)        8192
+coredump(blocks)     0
+memory(kbytes)       unlimited
+locked memory(kbytes) 82000
+process              unlimited
+nofiles              1048576
+vmemory(kbytes)      unlimited
+locks                unlimited
+rtprio               0] 
+[2023-06-09 12:54:36,067]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname] in directory [/opt/youtrack] 
+[2023-06-09 12:54:36,475]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname]] exited with code 0 and output: [9a767d804864] 
+[2023-06-09 12:54:36,476]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [hostname, -f] in directory [/opt/youtrack] 
+[2023-06-09 12:54:36,884]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[hostname, -f]] exited with code 0 and output: [9a767d804864] 
+[2023-06-09 12:54:36,885]  DEBUG - rains.service.util.cmd.CmdUtil - Executing [id, -a] in directory [/opt/youtrack] 
+[2023-06-09 12:54:37,295]  DEBUG - rains.service.util.cmd.CmdUtil - Command [[id, -a]] exited with code 0 and output: [uid=13001(jetbrains) gid=13001(jetbrains) groups=13001(jetbrains)] 
+[2023-06-09 12:54:37,328]   INFO - .server.handler.ContextHandler - Stopped c.j.b.p.j.@2de79ab{/,file:///opt/youtrack/internal/error_pages/,STOPPED} 
+[2023-06-11 15:04:45,037]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-11 15:04:45,039]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-11 15:04:45,101]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-11 15:04:45,113]  DEBUG - brains.bundle.ServiceDiscovery - Looking for services in /opt/youtrack/apps 
+[2023-06-11 15:04:45,114]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/youtrack 
+[2023-06-11 15:04:45,116]  DEBUG - brains.bundle.ServiceDiscovery - Found service descriptor /opt/youtrack/apps/hub 
+[2023-06-11 15:04:45,452]   INFO -  com.jetbrains.bundle.Services - Versions of services bundled into JetBrains YouTrack 2023.1: 
+[hub->2023.1.15868] 
+[youtrack->2023.1.10168] 
+[bundle-platform->1.5.750] 
+[2023-06-11 15:04:45,454]   INFO -                 bundle.startup - Configuring Service-Container[bundleProcess] 
+[2023-06-11 15:04:45,468]   INFO -                 bundle.startup - Configuring Bundle Backend Service 
+[2023-06-11 15:04:45,478]   INFO -                 bundle.startup - Configuring Starting Page Service 
+[2023-06-11 15:04:45,491]   INFO -                 bundle.startup - Configuring YouTrack Configurator 
+[2023-06-11 15:04:45,507]   INFO -                 bundle.startup - Configuring Hub 
+[2023-06-11 15:04:46,030]   INFO -                 bundle.startup - Configuring Bundle Hub Configurator 
+[2023-06-11 15:04:46,031]   INFO -                 bundle.startup - Configuring YouTrack 
+[2023-06-11 15:04:46,461]   INFO -                 bundle.startup - Starting Service-Container[bundleProcess] 
+[2023-06-11 15:04:46,464]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleProcess] 
+[2023-06-11 15:04:46,491]  DEBUG - g.JavaUtilLoggingToSlf4jBridge - [class com.jetbrains.service.util.logging.SLF4JBridgePerContextClassLoaderHandler] has already bean installed 
+[2023-06-11 15:04:46,518]   INFO -     org.eclipse.jetty.util.log - Logging initialized @3835ms to org.eclipse.jetty.util.log.Slf4jLog 
+[2023-06-11 15:04:46,677]   INFO - rg.eclipse.jetty.server.Server - jetty-9.4.49.v20220914; built: 2022-09-14T01:07:36.601Z; git: 4231a3b2e4cb8548a412a789936d640a97b1aa0a; jvm 17.0.6+10-LTS 
+[2023-06-11 15:04:46,746]   INFO - .server.handler.ContextHandler - Started c.j.b.p.j.@7eb856c1{/,file:///opt/youtrack/internal/error_pages/,AVAILABLE} 
+[2023-06-11 15:04:46,775]   INFO - jetty.server.AbstractConnector - Started ServerConnector@5ccac389{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+[2023-06-11 15:04:46,777]   INFO - rg.eclipse.jetty.server.Server - Started @4095ms 
+[2023-06-11 15:04:46,802]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleProcess] 
+[2023-06-11 15:04:46,803]   INFO -                 bundle.startup - Starting Bundle Backend Service 
+[2023-06-11 15:04:46,807]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [bundleBackend] 
+[2023-06-11 15:04:47,358]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=302ms 
+[2023-06-11 15:04:47,517]   INFO - .ContextHandler.bundle_backend - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-11 15:04:47,520]  DEBUG - onfig.BundleBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-11 15:04:47,561]   INFO - g.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0 
+[2023-06-11 15:04:47,563]   INFO - g.eclipse.jetty.server.session - No SessionScavenger set, using defaults 
+[2023-06-11 15:04:47,566]   INFO - g.eclipse.jetty.server.session - node0 Scavenging every 600000ms 
+[2023-06-11 15:04:47,595]   INFO - .ContextHandler.bundle_backend - Initializing Spring DispatcherServlet 'BundleBackendServletDispatcher' 
+[2023-06-11 15:04:47,597]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'BundleBackendServletDispatcher' 
+[2023-06-11 15:04:49,165]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 1568 ms 
+[2023-06-11 15:04:49,166]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@ec31af2{/bundle/backend,file:///opt/youtrack/internal/bundle_common/,AVAILABLE} 
+[2023-06-11 15:04:49,181]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [bundleBackend] 
+[2023-06-11 15:04:49,182]   INFO -                 bundle.startup - Starting Starting Page Service 
+[2023-06-11 15:04:49,183]   INFO -                 bundle.startup - JetBrains YouTrack 2023.1 will listen inside container on {0.0.0.0:8080}/bundle/starting after start and can be accessed by URL [http://<put-your-docker-HOST-name-here>:<put-host-port-mapped-to-container-port-8080-here>/bundle/starting] 
+[2023-06-11 15:04:49,184]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [startingPage] 
+[2023-06-11 15:04:49,369]   INFO - ations.AnnotationConfiguration - Scanning elapsed time=121ms 
+[2023-06-11 15:04:49,421]   INFO - ContextHandler.bundle_starting - 1 Spring WebApplicationInitializers detected on classpath 
+[2023-06-11 15:04:49,424]  DEBUG - StartingPageBackendInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context 
+[2023-06-11 15:04:49,441]   INFO - ContextHandler.bundle_starting - Initializing Spring DispatcherServlet 'StartingPageServletDispatcher' 
+[2023-06-11 15:04:49,442]   INFO - .web.servlet.DispatcherServlet - Initializing Servlet 'StartingPageServletDispatcher' 
+[2023-06-11 15:04:50,130]   INFO - .web.servlet.DispatcherServlet - Completed initialization in 686 ms 
+[2023-06-11 15:04:50,134]   INFO - .server.handler.ContextHandler - Started o.e.j.w.WebAppContext@75fab245{/bundle/starting,file:///opt/youtrack/internal/starting_page/,AVAILABLE} 
+[2023-06-11 15:04:50,155]  DEBUG - .bundle.Services$StartingState - Set status [RUNNING] for service [startingPage] 
+[2023-06-11 15:04:50,157]   INFO -                 bundle.startup - Starting YouTrack Configurator 
+[2023-06-11 15:04:50,159]  DEBUG - .bundle.Services$StartingState - Set status [STARTING] for service [adminService] 
+[2023-06-11 15:04:50,216]  DEBUG - .bundle.Services$StartingState - Set status [ERROR] for service [adminService] 
+[2023-06-11 15:04:50,218]  ERROR -                 bundle.startup - Error while starting JetBrains YouTrack 2023.1: Error saving properties file /opt/youtrack/data/internal/services/adminService/awcToken.properties: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied) 
+[2023-06-11 15:04:50,222]  DEBUG - om.jetbrains.bundle.BundleMain - Shutdown with parameters [shutdownExitCode=EXIT(29), soft=false] is requested on startup 
+com.jetbrains.bundle.exceptions.RequiringShutdownException: Error while starting JetBrains YouTrack 2023.1: Error saving properties file /opt/youtrack/data/internal/services/adminService/awcToken.properties: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied)
+	at com.jetbrains.bundle.Services.start(Services.java:561) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:273) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.BundleMain.start(BundleMain.java:237) [bundle-1.5.750.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.jetbrains.bundle.bootstrap.Bundle$EntryPointProvider$1.invoke(Bundle.java:100) [bundle-bootstrap-1.5.750.jar:?]
+	at jdk.proxy4.$Proxy30.start(Unknown Source) [?:?]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:99) [youtrack-wrapper.jar:1.0.206]
+	at com.jetbrains.launcher.AppProxy$6$1.call(AppProxy.java:97) [youtrack-wrapper.jar:1.0.206]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.jetbrains.service.util.StatusException: Error saving properties file /opt/youtrack/data/internal/services/adminService/awcToken.properties: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied)
+	at com.jetbrains.service.util.ConfiguratorUtils.savePropertiesFile(ConfiguratorUtils.java:69) ~[service-utils-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.createAndStoreNewToken(AdminConsoleService.java:139) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.regenerateTokenIfNeeded(AdminConsoleService.java:120) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.getAwcToken(AdminConsoleService.java:112) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.doStart(AdminConsoleService.java:97) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.ServiceBase.start(ServiceBase.java:66) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startService(Services.java:648) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startAllServices(Services.java:575) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.start(Services.java:555) ~[bundle-1.5.750.jar:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: /opt/youtrack/data/internal/services/adminService/awcToken.properties (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at com.jetbrains.service.util.ConfiguratorUtils.savePropertiesFile(ConfiguratorUtils.java:66) ~[service-utils-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.createAndStoreNewToken(AdminConsoleService.java:139) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.regenerateTokenIfNeeded(AdminConsoleService.java:120) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.getAwcToken(AdminConsoleService.java:112) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.AdminConsoleService.doStart(AdminConsoleService.java:97) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.services.impl.ServiceBase.start(ServiceBase.java:66) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startService(Services.java:648) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.startAllServices(Services.java:575) ~[bundle-1.5.750.jar:?]
+	at com.jetbrains.bundle.Services.start(Services.java:555) ~[bundle-1.5.750.jar:?]
+	... 14 more
+[2023-06-11 15:04:50,240]   INFO -                 bundle.startup - Stopping YouTrack 
+[2023-06-11 15:04:50,242]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [youtrack] 
+[2023-06-11 15:04:50,243]  DEBUG - bundle.proxy.jetty.BundleProxy - There is no web app context for service youtrack found. Perhaps, the service has not been started yet 
+[2023-06-11 15:04:50,243]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [youtrack] 
+[2023-06-11 15:04:50,244]   INFO -                 bundle.startup - Stopping Bundle Hub Configurator 
+[2023-06-11 15:04:50,245]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [bundle-hub-configurator] 
+[2023-06-11 15:04:50,245]  DEBUG - es.impl.HubConfiguratorService - * Service bundle-hub-configurator is virtual, nothing would be done on service stop 
+[2023-06-11 15:04:50,246]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [bundle-hub-configurator] 
+[2023-06-11 15:04:50,246]   INFO -                 bundle.startup - Stopping Hub 
+[2023-06-11 15:04:50,247]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [hub] 
+[2023-06-11 15:04:50,248]  DEBUG - bundle.proxy.jetty.BundleProxy - There is no web app context for service hub found. Perhaps, the service has not been started yet 
+[2023-06-11 15:04:50,248]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [hub] 
+[2023-06-11 15:04:50,249]   INFO -                 bundle.startup - Stopping YouTrack Configurator 
+[2023-06-11 15:04:50,250]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [adminService] 
+[2023-06-11 15:04:50,251]  DEBUG - bundle.proxy.jetty.BundleProxy - There is no web app context for service adminService found. Perhaps, the service has not been started yet 
+[2023-06-11 15:04:50,252]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [adminService] 
+[2023-06-11 15:04:50,254]   INFO -                 bundle.startup - Stopping Starting Page Service 
+[2023-06-11 15:04:50,255]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [startingPage] 
+[2023-06-11 15:04:50,260]   INFO - ContextHandler.bundle_starting - Destroying Spring FrameworkServlet 'StartingPageServletDispatcher' 
+[2023-06-11 15:04:50,263]   INFO - .server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@75fab245{/bundle/starting,file:///opt/youtrack/internal/starting_page/,STOPPED} 
+[2023-06-11 15:04:50,264]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [startingPage] 
+[2023-06-11 15:04:50,265]   INFO -                 bundle.startup - Stopping Bundle Backend Service 
+[2023-06-11 15:04:50,265]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [bundleBackend] 
+[2023-06-11 15:04:50,266]   INFO - .ContextHandler.bundle_backend - Destroying Spring FrameworkServlet 'BundleBackendServletDispatcher' 
+[2023-06-11 15:04:50,269]   INFO - .server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@ec31af2{/bundle/backend,file:///opt/youtrack/internal/bundle_common/,STOPPED} 
+[2023-06-11 15:04:50,270]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [bundleBackend] 
+[2023-06-11 15:04:50,270]   INFO -                 bundle.startup - Stopping Service-Container[bundleProcess] 
+[2023-06-11 15:04:50,271]  DEBUG - .bundle.Services$StartingState - Set status [SHUTTING_DOWN] for service [bundleProcess] 
+[2023-06-11 15:04:50,282]   INFO - bundle.proxy.jetty.BundleProxy - Stopping Service-Container[bundleProcess] 
+[2023-06-11 15:04:50,291]   INFO - jetty.server.AbstractConnector - Stopped ServerConnector@5ccac389{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+[2023-06-11 15:04:50,292]   INFO - g.eclipse.jetty.server.session - node0 Stopped scavenging 
+[2023-06-11 15:04:50,293]   INFO - .server.handler.ContextHandler - Stopped c.j.b.p.j.@7eb856c1{/,file:///opt/youtrack/internal/error_pages/,STOPPED} 
+[2023-06-11 15:04:50,298]   WARN - y.util.thread.QueuedThreadPool - Stopped without executing or closing null 
+[2023-06-11 15:04:50,303]  DEBUG - .bundle.Services$StartingState - Set status [SHUT_DOWN] for service [bundleProcess] 

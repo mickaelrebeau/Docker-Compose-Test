@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  nginx:
+    image: registry.alt-tools.tech/devops/dockerfile/nginx:default
+    ports:
+     - 8080:80
+    volumes:
+     - ./:/var/www:ro
+  php:
+    image: registry.alt-tools.tech/devops/dockerfile/php8-fpm:8.2.6
+    volumes:
+     - ./:/var/www
